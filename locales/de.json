@@ -1,0 +1,212 @@
+{
+    "translations": [
+        {
+            "id": "homepage-hello-title",
+            "content": "Hallo, ich bin"
+        },
+        {
+            "id": "name",
+            "content": "Sun Zizhuo"
+        },
+        {
+            "id": "year-old-text",
+            "content": " Jahre alter "
+        },
+        {
+            "id": "menu-item-homepage",
+            "content": "Homepage"
+        },
+        {
+            "id": "menu-item-about-me",
+            "content": "Über Mich"
+        },
+        {
+            "id": "menu-item-my-achievements",
+            "content": "Meine Leistungen"
+        },
+        {
+            "id": "menu-item-my-experiences",
+            "content": "Meine Erfahrungen"
+        },
+        {
+            "id": "menu-item-my-projects",
+            "content": "Meine Projekte"
+        },
+        {
+            "id": "menu-item-my-skills",
+            "content": "Meine Kompetenzen"
+        },
+        {
+            "id": "about-text-header",
+            "content": "Grüß dich!"
+        },
+        {
+            "id": "about-text-content",
+            "content": "Ich bin Sun Zizhuo, ein 17-jähriger JC1-Schüler an der <a href=\"https://www.hci.edu.sg/\" target=\"_blank\">Hwa Chong Institution&#8629;</a>.<br><br>Ich habe mit 7 oder 8 Jahren mit Scratch zu programmieren angefangen, um die Spiele anderer zu spielen. Aber bald darauf begann ich, meine eigenen zu erstellen. Wie viele Kinder damals wollte ich der nächste große Spielentwickler werden, was mich dazu brachte, mit 12 Jahren <b>C#</b> und <b>Unity</b> zu lernen. Etwa zur gleichen Zeit begann ich, Discord-Bots zu stellen, und startete damit meine <b>JavaScript</b>-Reise mit <b>Node.js</b>. In der Sekundarschule erweiterte ich meine Kenntnisse auf <b>Python</b>, <b>SQL</b> und Webentwicklung mit <b>Flask</b> und <b>Jinja</b> im Informatikunterricht.<br><br>Meine Leidenschaft für Forschung begann in der Sekundarstufe 2, und seitdem habe ich zwei <b>Chemie</b>-, ein <b>Physik</b>- und ein <b>Ingenieurwissenschaften</b>-Projekt abgeschlossen. Ich strebe an, in der Zukunft mehrere Praktika im Bereich Ingenieurwissenschaften und Wissenschaft zu machen und in diesen Bereich beizutragen.<br><br>Wenn ich nicht programmiere oder forsche, findet man mich Lesen von Science-Fiction, beim Ansehen von Anime oder beim Durchscrollen von Katzen-Videos auf Instagram."
+        },
+        {
+            "id": "my-achievements-page-header",
+            "content": "Meine Leistungen"
+        },
+        {
+            "id": "my-achievements-page-header-description",
+            "content": "Bemerkenswerte Dinge, die ich in den Bereichen Forschung, Informatik und anderen getan habe."
+        },
+        {
+            "id": "achievement-ssef-gold",
+            "content": "Singapur Wissenschafts- und Ingenieurmesse - Goldpreis"
+        },
+        {
+            "class": "side-bar-year-selector-header",
+            "content": "Jahresauswahl"
+        },
+        {
+            "class": "side-bar-include-categories-header",
+            "content": "Kategorien einbeziehen"
+        },
+        {
+            "class": "side-bar-priority-header",
+            "content": "Priorität"
+        },
+        {
+            "class": "side-bar-location-header",
+            "content": "Standort"
+        },
+        {
+            "class": "side-bar-type-header",
+            "content": "Typ"
+        },
+        {
+            "class": "side-bar-highlight-option",
+            "content": "Höhepunkt"
+        },
+        {
+            "class": "side-bar-international-option",
+            "content": "International"
+        },
+        {
+            "class": "side-bar-singapore-option",
+            "content": "Singapur"
+        },
+        {
+            "class": "side-bar-school-based-option",
+            "content": "Schulbasiert"
+        },
+        {
+            "class": "side-bar-research-option",
+            "content": "Forschung"
+        },
+        {
+            "class": "side-bar-academic-option",
+            "content": "Akademisch"
+        },
+        {
+            "class": "side-bar-computing-option",
+            "content": "Informatik"
+        },
+        {
+            "class": "side-bar-others-option",
+            "content": "Andere"
+        },
+        {
+            "id": "my-experiences-page-header",
+            "content": "Meine Erfahrungen"
+        },
+        {
+            "id": "my-experiences-page-header-description",
+            "content": "Bedeutende Erfahrungen, die ich im Laufe der Jahre gemacht habe."
+        },
+        {
+            "id": "achievements-nothing-here",
+            "content": "Immer noch am Grinden — willst du die Filter anpassen?"
+        },
+        {
+            "id": "experiences-nothing-here",
+            "content": "Warte immer noch darauf, dass diese Nebenquest auftaucht…"
+        },
+        {
+            "id": "my-skills-page-header",
+            "content": "Meine Kompetenzen"
+        },
+        {
+            "id": "my-skills-page-header-description",
+            "content": "Tausendsassa, Meister von nichts, doch oft besser als ein Meister eines."
+        },
+        {
+            "id": "my-skills-page-programming-header",
+            "content": "Programmierung"
+        },
+        {
+            "id": "my-skills-page-programming-description",
+            "content": "Eine Grundlage für MINT"
+        },
+        {
+            "id": "my-skills-page-programming-language-table-header",
+            "content": "Programmiersprache"
+        },
+        {
+            "id": "my-skills-page-programming-proficiency-table-header",
+            "content": "Fähigkeitsstufe"
+        },
+        {
+            "id": "my-skills-page-languages-header",
+            "content": "Sprachen"
+        },
+        {
+            "id": "my-skills-page-languages-description",
+            "content": "Zur Kommunikation mit der Welt"
+        },
+        {
+            "id": "my-skills-page-languages-language-table-header",
+            "content": "Sprache"
+        },
+        {
+            "id": "my-skills-page-languages-proficiency-table-header",
+            "content": "Fähigkeitsstufe"
+        },
+        {
+            "id": "my-skills-page-ctf-header",
+            "content": "CTF"
+        },
+        {
+            "id": "my-skills-page-ctf-description",
+            "content": "Teamkollegen gesucht?"
+        },
+        {
+            "id": "my-skills-page-ctf-category-table-header",
+            "content": "Kategorie"
+        },
+        {
+            "id": "my-skills-page-ctf-proficiency-table-header",
+            "content": "Fähigkeitsstufe"
+        },
+        {
+            "id": "my-projects-page-header",
+            "content": "Meine Projekte"
+        },
+        {
+            "id": "my-projects-page-header-description",
+            "content": "Immer am Tüfteln."
+        },
+        {
+            "id": "my-projects-page-research-projects-header",
+            "content": "Forschungsprojekte"
+        },
+        {
+            "id": "my-projects-page-research-projects-description",
+            "content": "Endlose Suche nach Wissen."
+        },
+        {
+            "id": "my-projects-page-coding-projects-header",
+            "content": "Programmierungsprojekte"
+        },
+        {
+            "id": "my-projects-page-coding-projects-description",
+            "content": "Immer dran, nie fertig."
+        },
+        {
+            "class": "my-projects-page-organisation",
+            "content": "Organisation"
+        }
+    ]
+}

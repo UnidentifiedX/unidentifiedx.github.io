@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>About Me</title>
+</head>
+<body class="about">
+    <div id="overlay"></div>
+    <div class="bottom-layer">
+        <div class="top-right-screen">
+            <div class="translate-menu">
+                <img src="/icons/translate.svg" alt="translate" onclick="toggleLanguageOptions()">
+            </div>
+            <div class="hamburger-menu" onclick="toggleHamburgerMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div class="top-right-screen language-options-margin">
+            <div class="language-options" id="language-options">
+                <p onclick="toggleLanguage(this)" id="en">EN</p>
+                <p onclick="toggleLanguage(this)" id="zh">简体中文</p>
+                <p onclick="toggleLanguage(this)" id="de">DE</p>
+            </div>
+        </div>
+        <div class="center-screen">
+            <div class="about-section">
+                <img src="/icons/silly cat.jpg" alt="Image">
+                <div class="about-text">
+                    <h2 id="about-text-header">Hey there!</h2>
+                    <p id="about-text-content">
+                        I'm Sun Zizhuo, a 17-year-old JC1 student at <a href="https://www.hci.edu.sg/" target="_blank">Hwa Chong Institution&#8629;</a>.
+                        <br><br>
+                        I started programming at 7 or 8 with Scratch, initially playing others' games but soon creating my own. Like many kids back then, I wanted to be the next big game developer, which led me to learn <b>C#</b> and <b>Unity</b> at 12. Around the same time, I started building Discord bots, kicking off my <b>JavaScript</b> journey with <b>Node.js</b>. In secondary school, I expanded into <b>Python</b>, <b>SQL</b>, and web development using <b>Flask</b> and <b>Jinja</b> through computing class.
+                        <br><br>
+                        My passion for research began in Secondary 2, and I've since completed two <b>chemistry</b>, one <b>physics</b>, and one <b>engineering</b> project. I aspire to intern in and contribute to engineering and science in the future.
+                        <br><br>
+                        When I'm not coding or researching, you'll find me reading sci-fi, watching anime, or scrolling through cat reels on Instagram.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="bottom-right-screen copyright">
+            <p>&copy; Sun Zizhuo <span id="current-year-text"></span><br> Made with HTML and CSS</p>
+        </div> -->
+    </div>
+    <div class="menu-layer top-right-screen" id="menu-items">
+        <a id="menu-item-homepage" href="/" style="--order: 1;">Homepage</a>
+        <a id="menu-item-my-achievements" href="/achievements/"  style="--order: 2;">My Achievements</a>
+        <a id="menu-item-my-experiences" href="/experiences/"  style="--order: 3;">My Experiences</a>
+        <a id="menu-item-my-projects" href="/projects/"  style="--order: 4;">My Projects</a>
+        <a id="menu-item-my-skills" href="/skills/"  style="--order: 5;">My Skills</a>
+        <div class="contacts" style="--order: 6;">
+            <a href="mailto:sunzizhuo33@gmail.com" target="_blank">sunzizhuo33@gmail.com &#8629;</a>
+            <a href="https://github.com/UnidentifiedX" target="_blank">UnidentifiedX on GitHub &#8629;</a>
+            <a href="https://instagram.com/_unidentifiedx_/" target="_blank">@_unidentifiedx_ on Instagram &#8629;</a>
+            <a href="https://discord.com/users/unidentifiedx" target="_blank">unidentifiedx on Discord &#8629;</a>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>

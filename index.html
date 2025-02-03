@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Sun Zizhuo</title>
+</head>
+<body class="homepage">
+    <div id="overlay"></div>
+    <div class="bottom-layer">
+        <div class="top-right-screen">
+            <div class="translate-menu">
+                <img src="./icons/translate.svg" alt="translate" onclick="toggleLanguageOptions()">
+            </div>
+            <div class="hamburger-menu" onclick="toggleHamburgerMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div class="top-right-screen language-options-margin">
+            <div class="language-options" id="language-options">
+                <p onclick="toggleLanguage(this)" id="en">EN</p>
+                <p onclick="toggleLanguage(this)" id="zh">简体中文</p>
+                <p onclick="toggleLanguage(this)" id="de">DE</p>
+            </div>
+        </div>
+        <div class="center-screen">
+            <div class="title-text">
+                <h2 id="homepage-hello-title">Hello, I'm</h2>
+                <h1 id="name">Sun Zizhuo</h1>
+                <h2 class="description-text"><span id="age-text"></span><span id="year-old-text"> year old </span><span id="hobby-text"></span>.</h2>
+            </div>
+        </div>
+        <!-- <div class="bottom-left-screen tldr">
+            <p>tl;dr?
+                <br>
+                Click <a href="/tldr/">here</a> for an animated experience.
+            </p>
+        </div> -->
+        <!-- <div class="bottom-left-screen socials">
+            <div class="social">
+                <a href="https://www.instagram.com/_unidentifiedx_" target="_blank">
+                    <img src="./icons/instagram.svg" alt="My Instagram Page">
+                </a>
+                <p>@_unidentifiedx_</p>
+            </div>
+            <div class="social">
+                <a href="https://discord.com/users/unidentifiedx" target="_blank">
+                    <img src="./icons/discord.svg" alt="My Discord Account">
+                </a>
+                <p>unidentifiedx</p>
+            </div>        
+            <div class="social">
+                <a href="https://github.com/UnidentifiedX" target="_blank">
+                    <img src="./icons/github.svg" alt="My Github Account">
+                </a>
+                <p>UnidentifiedX</p>
+            </div>
+        </div> -->
+        <div class="bottom-right-screen copyright">
+            <p>&copy; Sun Zizhuo <span id="current-year-text"></span><br> Made with HTML and CSS</p>
+        </div>
+    </div>
+    <div class="menu-layer top-right-screen" id="menu-items">
+        <a id="menu-item-about-me" href="/about/" style="--order: 1;">About Me</a>
+        <a id="menu-item-my-achievements" href="/achievements/" style="--order: 2;">My Achievements</a>
+        <a id="menu-item-my-experiences" href="/experiences/" style="--order: 3;">My Experiences</a>
+        <a id="menu-item-my-projects" href="/projects/" style="--order: 4;">My Projects</a>
+        <a id="menu-item-my-skills" href="/skills/" style="--order: 5;">My Skills</a>
+        <div class="contacts" style="--order: 6;">
+            <a href="mailto:sunzizhuo33@gmail.com" target="_blank">sunzizhuo33@gmail.com &#8629;</a>
+            <a href="https://github.com/UnidentifiedX" target="_blank">UnidentifiedX on GitHub &#8629;</a>
+            <a href="https://instagram.com/_unidentifiedx_/" target="_blank">@_unidentifiedx_ on Instagram &#8629;</a>
+            <a href="https://discord.com/users/unidentifiedx" target="_blank">unidentifiedx on Discord &#8629;</a>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>

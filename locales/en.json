@@ -1,0 +1,212 @@
+{
+    "translations": [
+        {
+            "id": "homepage-hello-title",
+            "content": "Hello, I'm"
+        },
+        {
+            "id": "name",
+            "content": "Sun Zizhuo"
+        },
+        {
+            "id": "year-old-text",
+            "content": " year old "
+        },
+        {
+            "id": "menu-item-homepage",
+            "content": "Homepage"
+        },
+        {
+            "id": "menu-item-about-me",
+            "content": "About Me"
+        },
+        {
+            "id": "menu-item-my-achievements",
+            "content": "My Achievements"
+        },
+        {
+            "id": "menu-item-my-experiences",
+            "content": "My Experiences"
+        },
+        {
+            "id": "menu-item-my-projects",
+            "content": "My Projects"
+        },
+        {
+            "id": "menu-item-my-skills",
+            "content": "My Skills"
+        },
+        {
+            "id": "about-text-header",
+            "content": "Hey there!"
+        },
+        {
+            "id": "about-text-content",
+            "content": "I'm Sun Zizhuo, a 17-year-old JC1 student at <a href=\"https://www.hci.edu.sg/\" target=\"_blank\">Hwa Chong Institution&#8629;</a>.<br><br>I started programming at 7 or 8 with Scratch, initially playing others' games but soon creating my own. Like many kids back then, I wanted to be the next big game developer, which led me to learn <b>C#</b> and <b>Unity</b> at 12. Around the same time, I started building Discord bots, kicking off my <b>JavaScript</b> journey with <b>Node.js</b>. In secondary school, I expanded into <b>Python</b>, <b>SQL</b>, and web development using <b>Flask</b> and <b>Jinja</b> through computing class.<br><br>My passion for research began in Secondary 2, and I've since completed two <b>chemistry</b>, one <b>physics</b>, and one <b>engineering</b> project. I aspire to intern in and contribute to engineering and science in the future.<br><br>When I'm not coding or researching, you'll find me reading sci-fi, watching anime, or scrolling through cat reels on Instagram."
+        },
+        {
+            "id": "my-achievements-page-header",
+            "content": "My Achievements"
+        },
+        {
+            "id": "my-achievements-page-header-description",
+            "content": "Notable things that I have done in research, computing and others."
+        },
+        {
+            "id": "achievement-ssef-gold",
+            "content": "Singapore Science and Engineering Fair - Gold Award"
+        },
+        {
+            "class": "side-bar-year-selector-header",
+            "content": "Year Selector"
+        },
+        {
+            "class": "side-bar-include-categories-header",
+            "content": "Include Categories"
+        },
+        {
+            "class": "side-bar-priority-header",
+            "content": "PRIORITY"
+        },
+        {
+            "class": "side-bar-location-header",
+            "content": "LOCATION"
+        },
+        {
+            "class": "side-bar-type-header",
+            "content": "TYPE"
+        },
+        {
+            "class": "side-bar-highlight-option",
+            "content": "Highlight"
+        },
+        {
+            "class": "side-bar-international-option",
+            "content": "International"
+        },
+        {
+            "class": "side-bar-singapore-option",
+            "content": "Singapore"
+        },
+        {
+            "class": "side-bar-school-based-option",
+            "content": "School-Based"
+        },
+        {
+            "class": "side-bar-research-option",
+            "content": "Research"
+        },
+        {
+            "class": "side-bar-academic-option",
+            "content": "Academic"
+        },
+        {
+            "class": "side-bar-computing-option",
+            "content": "Computing"
+        },
+        {
+            "class": "side-bar-others-option",
+            "content": "Others"
+        },
+        {
+            "id": "my-experiences-page-header",
+            "content": "My Experiences"
+        },
+        {
+            "id": "my-experiences-page-header-description",
+            "content": "Notable experiences I had over the years."
+        },
+        {
+            "id": "achievements-nothing-here",
+            "content": "Still grinding for this one — mind tweaking the filters?"
+        },
+        {
+            "id": "experiences-nothing-here",
+            "content": "Still waiting for this side quest to appear…"
+        },
+        {
+            "id": "my-skills-page-header",
+            "content": "My Skills"
+        },
+        {
+            "id": "my-skills-page-header-description",
+            "content": "Jack of all trades, master of none, though oftentimes better than a master of one."
+        },
+        {
+            "id": "my-skills-page-programming-header",
+            "content": "Programming"
+        },
+        {
+            "id": "my-skills-page-programming-description",
+            "content": "A STEM essential"
+        },
+        {
+            "id": "my-skills-page-programming-language-table-header",
+            "content": "Language"
+        },
+        {
+            "id": "my-skills-page-programming-proficiency-table-header",
+            "content": "Proficiency"
+        },
+        {
+            "id": "my-skills-page-languages-header",
+            "content": "Languages"
+        },
+        {
+            "id": "my-skills-page-languages-description",
+            "content": "For communicating with the world"
+        },
+        {
+            "id": "my-skills-page-languages-language-table-header",
+            "content": "Language"
+        },
+        {
+            "id": "my-skills-page-languages-proficiency-table-header",
+            "content": "Proficiency"
+        },
+        {
+            "id": "my-skills-page-ctf-header",
+            "content": "CTF"
+        },
+        {
+            "id": "my-skills-page-ctf-description",
+            "content": "Any teammates?"
+        },
+        {
+            "id": "my-skills-page-ctf-category-table-header",
+            "content": "Category"
+        },
+        {
+            "id": "my-skills-page-ctf-proficiency-table-header",
+            "content": "Proficiency"
+        },
+        {
+            "id": "my-projects-page-header",
+            "content": "My Projects"
+        },
+        {
+            "id": "my-projects-page-header-description",
+            "content": "Always tinkering."
+        },
+        {
+            "id": "my-projects-page-research-projects-header",
+            "content": "Research Projects"
+        },
+        {
+            "id": "my-projects-page-research-projects-description",
+            "content": "Endless pursuit of knowledge."
+        },
+        {
+            "id": "my-projects-page-coding-projects-header",
+            "content": "Coding Projects"
+        },
+        {
+            "id": "my-projects-page-coding-projects-description",
+            "content": "Always doing, never done."
+        },
+        {
+            "class": "my-projects-page-organisation",
+            "content": "Organisation"
+        }
+    ]
+}

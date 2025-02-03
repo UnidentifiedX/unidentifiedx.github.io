@@ -1,0 +1,212 @@
+{
+    "translations": [
+        {
+            "id": "homepage-hello-title",
+            "content": "你好！我是"
+        },
+        {
+            "id": "name",
+            "content": "孙子卓"
+        },
+        {
+            "id": "year-old-text",
+            "content": "岁"
+        },
+        {
+            "id": "menu-item-homepage",
+            "content": "主页"
+        },
+        {
+            "id": "menu-item-about-me",
+            "content": "关于我"
+        },
+        {
+            "id": "menu-item-my-achievements",
+            "content": "我的成就"
+        },
+        {
+            "id": "menu-item-my-experiences",
+            "content": "我的经验"
+        },
+        {
+            "id": "menu-item-my-projects",
+            "content": "我的项目"
+        },
+        {
+            "id": "menu-item-my-skills",
+            "content": "我的技能"
+        },
+        {
+            "id": "about-text-header",
+            "content": "哈喽!"
+        },
+        {
+            "id": "about-text-content",
+            "content": "我是孙子卓，一名正在<a href=\"https://www.hci.edu.sg/\" target=\"_blank\">华中初级学院&#8629;</a>读书的17岁JC1学生。<br><br>我 7 或 8 岁时就通过 Scratch 开始编程。我最初是玩别人做的游戏，但很快就开始制造属于自己的游戏。如当时许多孩子一样，我也想成为下一位大游戏开发者，使我 12 岁时学习了 <b>C#</b> 和 <b>Unity</b>。在大概同样的时间段我开始制作 Discord 机器人，使用 <b>Node.js</b> 开启了我的 <b>JavaScript</b> 之旅。上中学时，我扩展到了 <b>Python</b> 与 <b>SQL</b>，以及经过计算机课程学习利用 <b>Flask</b> 以及 <b>Jinja</b> 进行网页开发。<br><br>中二时我开始对研究产生兴趣，如今完成了两个<b>化学</b>项目、一个<b>物理</b>项目以及一个<b>工程</b>项目。我希望未来能在工程和科学领域方面有更多实习的机会，并且能为这些领域做出贡献。<br><br>当我不在编程或做研究时，我应该会在阅读科幻小说、看动漫、或者在 Instagram 上刷猫咪视频。"
+        },
+        {
+            "id": "my-achievements-page-header",
+            "content": "我的成就"
+        },
+        {
+            "id": "my-achievements-page-header-description",
+            "content": "我在研究、计算机和其它领域所完成的显著成果。"
+        },
+        {
+            "id": "achievement-ssef-gold",
+            "content": "新加坡科学与工程展 - 金奖"
+        },
+        {
+            "class": "side-bar-year-selector-header",
+            "content": "选择年份"
+        },
+        {
+            "class": "side-bar-include-categories-header",
+            "content": "包含类别"
+        },
+        {
+            "class": "side-bar-priority-header",
+            "content": "优先"
+        },
+        {
+            "class": "side-bar-location-header",
+            "content": "范围"
+        },
+        {
+            "class": "side-bar-type-header",
+            "content": "类型"
+        },
+        {
+            "class": "side-bar-highlight-option",
+            "content": "亮点"
+        },
+        {
+            "class": "side-bar-international-option",
+            "content": "国际"
+        },
+        {
+            "class": "side-bar-singapore-option",
+            "content": "新加坡"
+        },
+        {
+            "class": "side-bar-school-based-option",
+            "content": "校内"
+        },
+        {
+            "class": "side-bar-research-option",
+            "content": "研究"
+        },
+        {
+            "class": "side-bar-academic-option",
+            "content": "学术"
+        },
+        {
+            "class": "side-bar-computing-option",
+            "content": "计算机"
+        },
+        {
+            "class": "side-bar-others-option",
+            "content": "其它"
+        },
+        {
+            "id": "my-experiences-page-header",
+            "content": "我的经验"
+        },
+        {
+            "id": "my-experiences-page-header-description",
+            "content": "我多年来的显著经验。"
+        },
+        {
+            "id": "achievements-nothing-here",
+            "content": "还在努力中 — 不如调整一下筛选条件？"
+        },
+        {
+            "id": "experiences-nothing-here",
+            "content": "还在等待这个支线任务出现……"
+        },
+        {
+            "id": "my-skills-page-header",
+            "content": "我的技能"
+        },
+        {
+            "id": "my-skills-page-header-description",
+            "content": "样样通，样样松，但往往胜过一事精通。"
+        },
+        {
+            "id": "my-skills-page-programming-header",
+            "content": "编程"
+        },
+        {
+            "id": "my-skills-page-programming-description",
+            "content": "STEM 的基础技能"
+        },
+        {
+            "id": "my-skills-page-programming-language-table-header",
+            "content": "编程语言"
+        },
+        {
+            "id": "my-skills-page-programming-proficiency-table-header",
+            "content": "熟练度"
+        },
+        {
+            "id": "my-skills-page-languages-header",
+            "content": "语言"
+        },
+        {
+            "id": "my-skills-page-languages-description",
+            "content": "与世界沟通的桥梁"
+        },
+        {
+            "id": "my-skills-page-languages-language-table-header",
+            "content": "语言"
+        },
+        {
+            "id": "my-skills-page-languages-proficiency-table-header",
+            "content": "熟练度"
+        },
+        {
+            "id": "my-skills-page-ctf-header",
+            "content": "CTF"
+        },
+        {
+            "id": "my-skills-page-ctf-description",
+            "content": "有人找队友吗？"
+        },
+        {
+            "id": "my-skills-page-ctf-category-table-header",
+            "content": "类别"
+        },
+        {
+            "id": "my-skills-page-ctf-proficiency-table-header",
+            "content": "熟练度"
+        },
+        {
+            "id": "my-projects-page-header",
+            "content": "我的项目"
+        },
+        {
+            "id": "my-projects-page-header-description",
+            "content": "永远在捣鼓。"
+        },
+        {
+            "id": "my-projects-page-research-projects-header",
+            "content": "研究项目"
+        },
+        {
+            "id": "my-projects-page-research-projects-description",
+            "content": "无尽的知识追求。"
+        },
+        {
+            "id": "my-projects-page-coding-projects-header",
+            "content": "编程项目"
+        },
+        {
+            "id": "my-projects-page-coding-projects-description",
+            "content": "永远在做，从未完成。"
+        },
+        {
+            "class": "my-projects-page-organisation",
+            "content": "机构"
+        }
+    ]
+}

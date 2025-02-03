@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>My Experiences</title>
+</head>
+<body class="my-experiences">
+    <div id="overlay"></div>
+    <div class="bottom-layer">
+        <div class="top-right-screen">
+            <div class="filter-menu">
+                <img src="/icons/filter.svg" alt="filter" onclick="toggleFilters()">
+            </div>
+            <div class="translate-menu">
+                <img src="/icons/translate.svg" alt="translate" onclick="toggleLanguageOptions()">
+            </div>
+            <div class="hamburger-menu" onclick="toggleHamburgerMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>                
+            </div>
+        </div>
+        <div class="top-right-screen language-options-margin">
+            <div class="language-options" id="language-options">
+                <p onclick="toggleLanguage(this)" id="en">EN</p>
+                <p onclick="toggleLanguage(this)" id="zh">简体中文</p>
+                <p onclick="toggleLanguage(this)" id="de">DE</p>
+            </div>
+        </div>
+        <div class="category-filter-margin">
+            <div class="category-filters" id="category-filters">
+                <div class="category-filter-list" id="category-filter-list">
+                    <div class="list-option">
+                        <p class="side-bar-priority-header list-option-header">PRIORITY</p>
+                        <div class="options">
+                            <div class="option">
+                                <p class="side-bar-highlight-option">Highlight</p>
+                                <div class="checkbox checkbox-highlight" id="highlight" onclick="filterListByCategory(this)">
+                                    <div class="checkbox-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-option">
+                        <p class="side-bar-location-header list-option-header">LOCATION</p>
+                        <div class="options">
+                            <div class="option">
+                                <p class="side-bar-international-option">International</p>
+                                <div class="checkbox" id="international" onclick="filterListByCategory(this)">
+                                    <div class="checkbox-fill"></div>
+                                </div>
+                            </div>
+                            <div class="option">
+                                <p class="side-bar-singapore-option">Singapore</p>
+                                <div class="checkbox" id="singapore" onclick="filterListByCategory(this)">
+                                    <div class="checkbox-fill"></div>
+                                </div>
+                            </div>
+                            <div class="option">
+                                <p class="side-bar-school-based-option">School-Based</p>
+                                <div class="checkbox" id="school-based" onclick="filterListByCategory(this)">
+                                    <div class="checkbox-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="list-option">
+                        <p class="side-bar-type-header list-option-header">TYPE</p>
+                        <div class="options">
+                            <div class="option">
+                                <p class="side-bar-research-option">Research</p>
+                                <div class="checkbox" id="research" onclick="filterListByCategory(this)">
+                                    <div class="checkbox-fill"></div>
+                                </div>
+                            </div>
+                            <div class="option">
+                                <p class="side-bar-academic-option">Academic</p>
+                                <div class="checkbox" id="academic" onclick="filterListByCategory(this)">
+                                    <div class="checkbox-fill"></div>
+                                </div>
+                            </div>
+                            <div class="option">
+                                <p class="side-bar-computing-option">Computing</p>
+                                <div class="checkbox" id="computing" onclick="filterListByCategory(this)">
+                                    <div class="checkbox-fill"></div>
+                                </div>
+                            </div>
+                            <div class="option">
+                                <p class="side-bar-others-option">Others</p>
+                                <div class="checkbox" id="others" onclick="filterListByCategory(this)">
+                                    <div class="checkbox-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-center-screen">
+            <div class="page-header">
+                <h1 id="my-experiences-page-header">My Experiences</h1>
+                <p id="my-experiences-page-header-description">Notable experiences I had over the years.</p>
+            </div>
+        </div>
+        <div class="center-side-index">
+            <div class="side-index">
+                <div class="year-indicator">
+                    <h3 class="side-bar-year-selector-header">Year Selector</h3>
+                    <div class="years">
+                        <p onclick="jumpToSection(this)">2024</p>
+                        <p onclick="jumpToSection(this)">2023</p>
+                        <p onclick="jumpToSection(this)">2022</p>
+                        <p onclick="jumpToSection(this)">2021</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="category-filter">
+                    <h3 class="side-bar-include-categories-header">Include Categories</h3>
+                    <div class="category-filter-list" id="category-filter-list">
+                        <div class="list-option">
+                            <p class="side-bar-priority-header list-option-header">PRIORITY</p>
+                            <div class="options">
+                                <div class="option">
+                                    <p class="side-bar-highlight-option">Highlight</p>
+                                    <div class="checkbox checkbox-highlight" id="highlight" onclick="filterListByCategory(this)">
+                                        <div class="checkbox-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-option">
+                            <p class="side-bar-location-header list-option-header">LOCATION</p>
+                            <div class="options">
+                                <div class="option">
+                                    <p class="side-bar-international-option">International</p>
+                                    <div class="checkbox" id="international" onclick="filterListByCategory(this)">
+                                        <div class="checkbox-fill"></div>
+                                    </div>
+                                </div>
+                                <div class="option">
+                                    <p class="side-bar-singapore-option">Singapore</p>
+                                    <div class="checkbox" id="singapore" onclick="filterListByCategory(this)">
+                                        <div class="checkbox-fill"></div>
+                                    </div>
+                                </div>
+                                <div class="option">
+                                    <p class="side-bar-school-based-option">School-Based</p>
+                                    <div class="checkbox" id="school-based" onclick="filterListByCategory(this)">
+                                        <div class="checkbox-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="list-option">
+                            <p class="side-bar-type-header list-option-header">TYPE</p>
+                            <div class="options">
+                                <div class="option">
+                                    <p class="side-bar-research-option">Research</p>
+                                    <div class="checkbox" id="research" onclick="filterListByCategory(this)">
+                                        <div class="checkbox-fill"></div>
+                                    </div>
+                                </div>
+                                <div class="option">
+                                    <p class="side-bar-academic-option">Academic</p>
+                                    <div class="checkbox" id="academic" onclick="filterListByCategory(this)">
+                                        <div class="checkbox-fill"></div>
+                                    </div>
+                                </div>
+                                <div class="option">
+                                    <p class="side-bar-computing-option">Computing</p>
+                                    <div class="checkbox" id="computing" onclick="filterListByCategory(this)">
+                                        <div class="checkbox-fill"></div>
+                                    </div>
+                                </div>
+                                <div class="option">
+                                    <p class="side-bar-others-option">Others</p>
+                                    <div class="checkbox" id="others" onclick="filterListByCategory(this)">
+                                        <div class="checkbox-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-index-secton">
+            <div class="top-center-screen top-index">
+                <div class="year-selector">
+                    <p class="top-index-section-header">Go to year:</p> 
+                    <div class="years">
+                        <p onclick="jumpToSection(this)">2024</p>
+                        <p onclick="jumpToSection(this)">2023</p>
+                        <p onclick="jumpToSection(this)">2022</p>
+                        <p onclick="jumpToSection(this)">2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-image">
+            <img src="" alt="" id="event-image">
+            <p id="event-image-description"></p>
+        </div>
+        <div class="experiences-section">
+            <div class="top-center-screen experiences">
+                <div class="experience 2024-experience">
+                    <div class="header-row">
+                        <h2>Internship at Defence Science Technology Agency (DSTA) Singapore</h2>
+                        <p class="year-2024">2024</p>
+                    </div>
+                    <div class="content">
+                        <p>On Reinforcement Learning for the Tracking of Unmanned Aerial Vehicles.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-singapore-option">Singapore</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-research-option">Research</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-highlight-option">Highlight</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2024-experience image" 
+                    onmouseenter="showImageBottomRight('/images/shibaura presentation.jpg', 'Presentation at the Shibaura Institute of Technology (2024)')" 
+                    onmouseleave="clearImageBottomRight()">
+                    <div class="header-row">
+                        <h2>Foreign Representation at the 19th Chemistry Grand Contest in Tokyo, Japan</h2>
+                        <p class="year-2024">2024</p>
+                    </div>
+                    <div class="content">
+                        <p>Presented our project as guest speakers, on the Synthesis and Properties of <i>S. Cerevisiae</i>-based Bionanocomposites. Also officially became a member of the Sakura Science Programme.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-international-option">International</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-research-option">Research</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-highlight-option">Highlight</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2024-experience">
+                    <div class="header-row">
+                        <h2>Hwa Chong-Bugil Science Research Collaboration</h2>
+                        <p class="year-2024">2024</p>
+                    </div>
+                    <div class="content">
+                        <p>Collaborated with students from Bugil Academy in Cheonan, South Korea, on the Synthesis and Properties of <i>S. Cerevisiae</i>-based Bionanocomposites.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-international-option">International</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-research-option">Research</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-highlight-option">Highlight</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2024-experience image"
+                    onmouseenter="showImageBottomRight('/images/jsrc.jpg', 'Research Camp for Students Interested in Science (2024)')" 
+                    onmouseleave="clearImageBottomRight()">
+                    <div class="header-row">
+                        <h2>Hwa Chong Junior Scientist Research Camp - Programmes Head</h2>
+                        <p class="year-2024">2024</p>
+                    </div>
+                    <div class="content">
+                        <p>Headed the planning of the syllabus and activities for primary 6 students that are talented in the sciences. Taught them basic physics and chemistry knowledge through a 7-day camp.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-singapore-option">Singapore</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-others-option">Others</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-highlight-option">Highlight</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2024-experience">
+                    <div class="header-row">
+                        <h2>Fan Si Pan Adventure Hike in Sa Pa, Vietnam</h2>
+                        <p class="year-2024">2024</p>
+                    </div>
+                    <div class="content">
+                        <p>1 week adventure exploring the streets and learning the history of Vietnam. Most notably scaled the tallest mountain in Indochina - Fan Si Pan, standing at 3147 m.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-international-option">International</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-others-option">Others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2024-experience">
+                    <div class="header-row">
+                        <h2>Hwa Chong-Dominion High School Exchange Programme</h2>
+                        <p class="year-2024">2024</p>
+                    </div>
+                    <div class="content">
+                        <p>Hosted buddies from Dominion High School in Loudoun County, Virginia, USA.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-singapore-option">Singapore</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-others-option">Others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2023-experience">
+                    <div class="header-row">
+                        <h2>Science Mentorship Programme</h2>
+                        <p class="year-2023">2023</p>
+                    </div>
+                    <div class="content">
+                        <p>Mentored by Associate Professor Dr Paul Lee, NIE/NTU in the field of plasma physics. On Optimised Numerical Methods for the Computation of Particles in Fusion Hotspots and Particle Interactions in Magnetised Liner Inertial Fusion (MagLIF).</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-singapore-option">Singapore</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-research-option">Research</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-highlight-option">Highlight</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2023-experience">
+                    <div class="header-row">
+                        <h2>Student Councillor</h2>
+                        <p class="year-2023">2023</p>
+                    </div>
+                    <div class="content">
+                        <p>Serving the needs of students by organising important schoolwide events including national day celebrations and end-of-year celebrations as Organising Secretary. Also served as a buddy for freshmen during 2022, 2023 secondary one orientations and a facilitator for open house.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-singapore-option">Singapore</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-others-option">Others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2023-experience">
+                    <div class="header-row">
+                        <h2>Ong Teng Cheong Leadership Certification Programme</h2>
+                        <p class="year-2023">2023</p>
+                    </div>
+                    <div class="content">
+                        <p>Week-long leadership camp, including trips to A*STAR laboratories and logistics companies to learn more about leadership experiences.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-school-based-option">School-Based</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-others-option">Others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2023-experience">
+                    <div class="header-row">
+                        <h2>Animatronics the AI Way and Retro Game Programming</h2>
+                        <p class="year-2023">2023</p>
+                    </div>
+                    <div class="content">
+                        <p>Week-long sabbatical developing retro games on an Arduino Pico as well as introduction to robotics and artificial intelligence.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-school-based-option">School-Based</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-others-option">Others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2022-experience">
+                    <div class="header-row">
+                        <h2>Excel Yourself with VBA</h2>
+                        <p class="year-2022">2022</p>
+                    </div>
+                    <div class="content">
+                        <p>Week-long sabbatical on the basics of excel VBA as well as Power BI.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-school-based-option">School-Based</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-others-option">Others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience 2021-experience">
+                    <div class="header-row">
+                        <h2>Hwa Chong Track and Field</h2>
+                        <p class="year-2021">2021</p>
+                    </div>
+                    <div class="content">
+                        <p>Joined Hwa Chong Track and Field as a sprinter and hurdler. Member from 2021-2024 with a few achievements along the way.</p>
+                    </div>
+                    <div class="categories">
+                        <div class="category">
+                            <p class="side-bar-school-based-option">School-Based</p>
+                        </div>
+                        <div class="category">
+                            <p class="side-bar-others-option">Others</p>
+                        </div>
+                    </div>
+                </div>
+                <p id="experiences-nothing-here">Still waiting for this side quest to appear…</p>
+            </div>
+        </div>
+        <!-- <div class="copyright">
+            <p>&copy; Sun Zizhuo <span id="current-year-text"></span><br> Made with HTML and CSS</p>
+        </div> -->
+    </div>
+    <div class="menu-layer top-right-screen" id="menu-items">
+        <a id="menu-item-homepage" href="/" style="--order: 1;">Homepage</a>
+        <a id="menu-item-about-me" href="/about/" style="--order: 2;">About Me</a>
+        <a id="menu-item-my-achievements" href="/achievements/" style="--order: 3;">My Achievements</a>
+        <a id="menu-item-my-projects" href="/projects/" style="--order: 4;">My Projects</a>
+        <a id="menu-item-my-skills" href="/skills/" style="--order: 5;">My Skills</a>
+        <div class="contacts" style="--order: 6;">
+            <a href="mailto:sunzizhuo33@gmail.com" target="_blank">sunzizhuo33@gmail.com &#8629;</a>
+            <a href="https://github.com/UnidentifiedX" target="_blank">UnidentifiedX on GitHub &#8629;</a>
+            <a href="https://instagram.com/_unidentifiedx_/" target="_blank">@_unidentifiedx_ on Instagram &#8629;</a>
+            <a href="https://discord.com/users/unidentifiedx" target="_blank">unidentifiedx on Discord &#8629;</a>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
