@@ -258,9 +258,9 @@ function showHighlightImage(directory, descriptionCode) {
         descriptionElement.innerText = description
         overlay.classList.add("active")
 
-        setTimeout(() => {
-            overlay.onclick = () => hideImageOverlay();
-        }, 500);
+        // setTimeout(() => {
+        //     overlay.onclick = () => hideImageOverlay();
+        // }, 500);
     }
 }
 
@@ -273,7 +273,7 @@ function hideImageOverlay() {
     const overlay = document.getElementById("image-overlay")
     overlay.classList.remove("active")
 
-    overlay.onclick = null // prevent conflicts
+    // overlay.onclick = null // prevent conflicts
 }
 
 setLanguage(localStorage.getItem("language") || "en").then(() => {
