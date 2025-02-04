@@ -260,7 +260,7 @@ function showHighlightImage(directory, descriptionCode) {
 
         setTimeout(() => {
             overlay.onclick = () => hideImageOverlay();
-        }, 100);
+        }, 500);
     }
 }
 
