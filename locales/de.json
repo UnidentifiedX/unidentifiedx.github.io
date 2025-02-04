@@ -54,7 +54,39 @@
         },
         {
             "id": "achievement-ssef-gold",
-            "content": "Singapur Wissenschafts- und Ingenieurmesse - Goldpreis"
+            "content": "Singapore Science and Engineering Fair - Goldpreis"
+        },
+        {
+            "id": "achievement-ssef-gold-description",
+            "content": "Über <span class='optimised-numerical-methods'></span>."
+        },
+        {
+            "id": "achievement-ssef-saas",
+            "content": "Singapore Science and Engineering Fair - SAAS-Sonderpreis"
+        },
+        {
+            "id": "achievement-ssef-saas-description",
+            "content": "Posterpreis für Wissenschaftskommunikation."
+        },
+        {
+            "id": "achievement-icpsa-best-presentation",
+            "content": "International Conference on Plasma Science and Applications - Preis für die beste Präsentation"
+        },
+        {
+            "class": "achievement-icpsa-description",
+            "content": "Unterstützt von der University of Lucknow und der Asian African Association for Plasma Training."
+        },
+        {
+            "id": "achievement-icpsa-best-contribution",
+            "content": "International Conference on Plasma Science and Applications - Preis für den besten Gruppenbeitrag"
+        },
+        {
+            "id": "achievement-ysc-merit",
+            "content": "29th Singapore Youth Science Conference - Verdienstauszeichnung"
+        },
+        {
+            "id": "achievement-ysc-merit-description",
+            "content": "Organisiert von der Gifted Education Branch (MOE) für Schüler, die durch das Science Mentorship Program (SMP) in wissenschaftliche Forschung eingebunden sind."
         },
         {
             "class": "side-bar-year-selector-header",
@@ -115,6 +147,50 @@
         {
             "id": "my-experiences-page-header-description",
             "content": "Bedeutende Erfahrungen, die ich im Laufe der Jahre gemacht habe."
+        },
+        {
+            "id": "experience-dsta-internship",
+            "content": "Praktikum bei der Defence Science Technology Agency (DSTA) Singapur"
+        },
+        {
+            "id": "experience-dsta-internship-description",
+            "content": "Über <span class='reinforcement-learning-tracking-uav'></span>."
+        },
+        {
+            "class": "reinforcement-learning-tracking-uav",
+            "content": "Reinforcement Learning zur Verfolgung von unbemannten Luftfahrzeugen"
+        },
+        {
+            "id": "experience-japan-presentation",
+            "content": "Ausländische Vertretung beim 19th Chemistry Grand Contest in Tokio, Japan"
+        },
+        {
+            "id": "experience-japan-presentation-description",
+            "content": "Präsentierten unser Projekt als Gastredner über die <span class='s-cerevisiae'></span>. Außerdem wurden wir offiziell Mitglied des Sakura Science Programme."
+        },
+        {
+            "id": "experience-hci-bugil",
+            "content": "Hwa Chong-Bugil Wissenschaftliche Forschungszusammenarbeit"
+        },
+        {
+            "id": "experience-hci-bugil-description",
+            "content": "Zusammenarbeit mit Schülern der Bugil Academy in Cheonan, Südkorea, zur <span class='s-cerevisiae'></span>。"
+        },
+        {
+            "id": "experience-jsrc",
+            "content": "Hwa Chong Junior Scientist Research Camp - Programmdirektor"
+        },
+        {
+            "id": "experience-jsrc-description",
+            "content": "Leitete die Planung des Lehrplans und der Aktivitäten für talentierte Schüler der 6. Klasse im Bereich Naturwissenschaften. Lehrte ihnen grundlegende Physik- und Chemiekenntnisse durch ein 7-tägiges Camp."
+        },
+        {
+            "id": "experience-smp",
+            "content": "Science Mentorship Programme"
+        },
+        {
+            "id": "experience-smp-description",
+            "content": "Geleitet von assoziiertem Professor Dr. Paul Lee, NIE/NTU, im Bereich Plasmaphysik. Über <span class='optimised-numerical-methods'></span>。"
         },
         {
             "id": "achievements-nothing-here",
@@ -207,6 +283,14 @@
         {
             "class": "my-projects-page-organisation",
             "content": "Organisation"
+        },
+        {
+            "class": "s-cerevisiae",
+            "content": "Synthese und Eigenschaften von auf <i>S. Cerevisiae</i> basierten Bionanokompositen"
+        },
+        {
+            "class": "optimised-numerical-methods",
+            "content": "optimerte numerische Methoden zur Berechnung von Partikeln in Fusions-Hotspots und Teilcheninteraktionen in magnetisierter Liner-Inertialfusion (MagLIF)"
         }
     ]
 }

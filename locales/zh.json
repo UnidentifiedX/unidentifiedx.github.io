@@ -57,6 +57,38 @@
             "content": "新加坡科学与工程展 - 金奖"
         },
         {
+            "id": "achievement-ssef-gold-description",
+            "content": "关于<span class='optimised-numerical-methods'></span>。"
+        },
+        {
+            "id": "achievement-ssef-saas",
+            "content": "新加坡科学与工程展 - SAAS 特奖"
+        },
+        {
+            "id": "achievement-ssef-saas-description",
+            "content": "科学沟通海报奖。"
+        },
+        {
+            "id": "achievement-icpsa-best-presentation",
+            "content": "等离子体科学与应用国际会议 - 最佳报告奖"
+        },
+        {
+            "class": "achievement-icpsa-description",
+            "content": "由勒克瑙大学和亚非等离子体培训协会支持。"
+        },
+        {
+            "id": "achievement-icpsa-best-contribution",
+            "content": "等离子体科学与应用国际会议 - 小组最佳贡献奖"
+        },
+        {
+            "id": "achievement-ysc-merit",
+            "content": "第29届新加坡青少年科学会议 - 优异奖"
+        },
+        {
+            "id": "achievement-ysc-merit-description",
+            "content": "由教育部高才教育计划分部组织为参与科学导师计划 (SMP) 中科学研究的学生所举办。"
+        },
+        {
             "class": "side-bar-year-selector-header",
             "content": "选择年份"
         },
@@ -115,6 +147,50 @@
         {
             "id": "my-experiences-page-header-description",
             "content": "我多年来的显著经验。"
+        },
+        {
+            "id": "experience-dsta-internship",
+            "content": "新加坡国防科技局"
+        },
+        {
+            "id": "experience-dsta-internship-description",
+            "content": "关于<span class='reinforcement-learning-tracking-uav'></span>。"
+        },
+        {
+            "class": "reinforcement-learning-tracking-uav",
+            "content": "利用强化学习追踪无人驾驶航空器"
+        },
+        {
+            "id": "experience-japan-presentation",
+            "content": "在日本东京第19届化学大奖赛上作为外国代表"
+        },
+        {
+            "id": "experience-japan-presentation-description",
+            "content": "以嘉宾演讲者的身份展示了关于<span class='s-cerevisiae'></span>的项目。也成为了樱花科技项目的成员。"
+        },
+        {
+            "id": "experience-hci-bugil",
+            "content": "华中-北一高等学校研究合作"
+        },
+        {
+            "id": "experience-hci-bugil-description",
+            "content": "与韩国北一高等学校的学生合作，研究<span class='s-cerevisiae'></span>。"
+        },
+        {
+            "id": "experience-jsrc",
+            "content": "华中小科学家研究营 - 项目负责人"
+        },
+        {
+            "id": "experience-jsrc-description",
+            "content": "负责规划在科学方面有天赋的六年级学生的课程和活动。通过为期七天的活动，教授他们基础的物理和化学知识。"
+        },
+        {
+            "id": "experience-smp",
+            "content": "科学导师计划"
+        },
+        {
+            "id": "experience-smp-description",
+            "content": "在NIE/NTU副教授 Dr. Paul Lee 的指导下，研究<span class='optimised-numerical-methods'></span>。"
         },
         {
             "id": "achievements-nothing-here",
@@ -207,6 +283,14 @@
         {
             "class": "my-projects-page-organisation",
             "content": "机构"
+        },
+        {
+            "class": "s-cerevisiae",
+            "content": "酿酒酵母纳米复合材料的合成与性质"
+        },
+        {
+            "class": "optimised-numerical-methods",
+            "content": "以优化数值方法计算聚变热点中的粒子及磁化内衬惯性核聚变 (MagLIF) 中粒子的相互作用"
         }
     ]
 }

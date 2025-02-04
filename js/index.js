@@ -1,6 +1,7 @@
 let hobbyIndex = 0
 let activeYearSection = null
 let filters = []
+const onDesktop = window.matchMedia('(hover: hover) and (pointer: fine)').matches
 
 function changeHobbyText() {
     const hobbiesLocales = {
@@ -221,19 +222,58 @@ function hideMenus(event) {
     }
 }
 
-function showImageBottomRight(directory, description) {
-    const imageElement = document.getElementById("event-image")
-    const descriptionElement = document.getElementById("event-image-description")
-    imageElement.setAttribute("src", directory)
-    imageElement.parentElement.classList.add("active")
-    descriptionElement.innerText = description
-    console.log("hi")
+function showHighlightImage(directory, descriptionCode) {
+    const descriptionCodes = {
+        "shibaura-presentation": {
+            "en": "Presentation at the Shibaura Institute of Technology (2024)",
+            "zh": "在芝浦工业大学演讲 (2024)",
+            "de": "Präsentation am Shibaura Institute of Technology (2024)"
+        },
+        "jsrc": {
+            "en": "Junior Science Research Camp (2024)",
+            "zh": "青少年科学研究营 (2024)",
+            "de": "Junior Science Research Camp (2024)"
+        },
+        "dhs-hci": {
+            "en": "Buddies from Dominion High School, Virginia, USA (2024)",
+            "zh": "来自美国弗吉尼亚州多米尼恩高中的伙伴 (2024)",
+            "de": "Freunde von der Dominion High School, Virginia, USA (2024)"
+        }
+    }
+    let description = descriptionCodes[descriptionCode][localStorage.getItem("language")]
+
+    if (onDesktop) {
+        const imageElement = document.getElementById("event-image")
+        const descriptionElement = document.getElementById("event-image-description")
+    
+        imageElement.setAttribute("src", directory)
+        descriptionElement.innerText = description
+        imageElement.parentElement.classList.add("active")
+    } else {
+        const overlay = document.getElementById("image-overlay")
+        const imageElement = document.getElementById("image-overlay-image")
+        const descriptionElement = document.getElementById("image-overlay-description")
+
+        imageElement.setAttribute("src", directory)
+        descriptionElement.innerText = description
+        overlay.classList.add("active")
+
+        setTimeout(() => {
+            overlay.onclick = () => hideImageOverlay();
+        }, 100);
+    }
 }
 
 function clearImageBottomRight() {
     const imageElement = document.getElementById("event-image")
-    // imageElement.setAttribute("src", "")
     imageElement.parentElement.classList.remove("active")
+}
+
+function hideImageOverlay() {
+    const overlay = document.getElementById("image-overlay")
+    overlay.classList.remove("active")
+
+    overlay.onclick = null // prevent conflicts
 }
 
 setLanguage(localStorage.getItem("language") || "en").then(() => {

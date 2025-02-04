@@ -11,6 +11,12 @@
 </head>
 <body class="my-experiences">
     <div id="overlay"></div>
+    <div id="image-overlay">
+        <div class="image-overlay-image-frame">
+            <img src="" id="image-overlay-image"></img>
+        </div>
+        <p id="image-overlay-description"></p>
+    </div>
     <div class="bottom-layer">
         <div class="top-right-screen">
             <div class="filter-menu">
@@ -210,11 +216,11 @@
             <div class="top-center-screen experiences">
                 <div class="experience 2024-experience">
                     <div class="header-row">
-                        <h2>Internship at Defence Science Technology Agency (DSTA) Singapore</h2>
+                        <h2 id="experience-dsta-internship">Internship at Defence Science Technology Agency (DSTA) Singapore</h2>
                         <p class="year-2024">2024</p>
                     </div>
                     <div class="content">
-                        <p>On Reinforcement Learning for the Tracking of Unmanned Aerial Vehicles.</p>
+                        <p id="experience-dsta-internship-description">On Reinforcement Learning for the Tracking of Unmanned Aerial Vehicles.</p>
                     </div>
                     <div class="categories">
                         <div class="category">
@@ -229,14 +235,15 @@
                     </div>
                 </div>
                 <div class="experience 2024-experience image" 
-                    onmouseenter="showImageBottomRight('/images/shibaura presentation.jpg', 'Presentation at the Shibaura Institute of Technology (2024)')" 
+                    onclick="showHighlightImage('/images/shibaura presentation.jpg', 'shibaura-presentation')"
+                    onmouseenter="showHighlightImage('/images/shibaura presentation.jpg', 'shibaura-presentation')" 
                     onmouseleave="clearImageBottomRight()">
                     <div class="header-row">
-                        <h2>Foreign Representation at the 19th Chemistry Grand Contest in Tokyo, Japan</h2>
+                        <h2><span id="experience-japan-presentation">Foreign Representation at the 19th Chemistry Grand Contest in Tokyo, Japan</span><img src="/icons/photo library.svg" alt=""></h2>
                         <p class="year-2024">2024</p>
                     </div>
                     <div class="content">
-                        <p>Presented our project as guest speakers, on the Synthesis and Properties of <i>S. Cerevisiae</i>-based Bionanocomposites. Also officially became a member of the Sakura Science Programme.</p>
+                        <p id="experience-japan-presentation-description">Presented our project as guest speakers, on the Synthesis and Properties of <i>S. Cerevisiae</i>-based Bionanocomposites. Also officially became a member of the Sakura Science Programme.</p>
                     </div>
                     <div class="categories">
                         <div class="category">
@@ -252,11 +259,11 @@
                 </div>
                 <div class="experience 2024-experience">
                     <div class="header-row">
-                        <h2>Hwa Chong-Bugil Science Research Collaboration</h2>
+                        <h2 id="experience-hci-bugil">Hwa Chong-Bugil Science Research Collaboration</h2>
                         <p class="year-2024">2024</p>
                     </div>
                     <div class="content">
-                        <p>Collaborated with students from Bugil Academy in Cheonan, South Korea, on the Synthesis and Properties of <i>S. Cerevisiae</i>-based Bionanocomposites.</p>
+                        <p id="experience-hci-bugil-description">Collaborated with students from Bugil Academy in Cheonan, South Korea, on the Synthesis and Properties of <i>S. Cerevisiae</i>-based Bionanocomposites.</p>
                     </div>
                     <div class="categories">
                         <div class="category">
@@ -271,14 +278,14 @@
                     </div>
                 </div>
                 <div class="experience 2024-experience image"
-                    onmouseenter="showImageBottomRight('/images/jsrc.jpg', 'Research Camp for Students Interested in Science (2024)')" 
+                    onmouseenter="showHighlightImage('/images/jsrc.jpg', 'jsrc')" 
                     onmouseleave="clearImageBottomRight()">
                     <div class="header-row">
-                        <h2>Hwa Chong Junior Scientist Research Camp - Programmes Head</h2>
+                        <h2><span id="experience-jsrc">Hwa Chong Junior Scientist Research Camp - Programmes Head</span><img src="/icons/photo library.svg" alt="Media Attached"></h2>
                         <p class="year-2024">2024</p>
                     </div>
                     <div class="content">
-                        <p>Headed the planning of the syllabus and activities for primary 6 students that are talented in the sciences. Taught them basic physics and chemistry knowledge through a 7-day camp.</p>
+                        <p id="experience-jsrc-description">Headed the planning of the syllabus and activities for primary 6 students that are talented in the sciences. Taught them basic physics and chemistry knowledge through a 7-day camp.</p>
                     </div>
                     <div class="categories">
                         <div class="category">
@@ -309,9 +316,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="experience 2024-experience">
+                <div class="experience 2024-experience image"
+                    onmouseenter="showHighlightImage('/images/dhs-hci.jpg', 'dhs-hci')" 
+                    onmouseleave="clearImageBottomRight()">
                     <div class="header-row">
-                        <h2>Hwa Chong-Dominion High School Exchange Programme</h2>
+                        <h2>Hwa Chong-Dominion High School Exchange Programme<img src="/icons/photo library.svg" alt="Media Attached"></h2>
                         <p class="year-2024">2024</p>
                     </div>
                     <div class="content">
@@ -328,11 +337,11 @@
                 </div>
                 <div class="experience 2023-experience">
                     <div class="header-row">
-                        <h2>Science Mentorship Programme</h2>
+                        <h2 id="experience-smp">Science Mentorship Programme</h2>
                         <p class="year-2023">2023</p>
                     </div>
                     <div class="content">
-                        <p>Mentored by Associate Professor Dr Paul Lee, NIE/NTU in the field of plasma physics. On Optimised Numerical Methods for the Computation of Particles in Fusion Hotspots and Particle Interactions in Magnetised Liner Inertial Fusion (MagLIF).</p>
+                        <p id="experience-smp-description">Mentored by Associate Professor Dr Paul Lee, NIE/NTU in the field of plasma physics. On Optimised Numerical Methods for the Computation of Particles in Fusion Hotspots and Particle Interactions in Magnetised Liner Inertial Fusion (MagLIF).</p>
                     </div>
                     <div class="categories">
                         <div class="category">

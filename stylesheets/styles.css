@@ -101,6 +101,7 @@ body {
 
 #overlay.change {
     background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: all;
 }
 
 .translate-menu img {
@@ -332,7 +333,7 @@ body {
     border-radius: 5px;
 }
 
-@media (hover :hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) {
     .tldr a:hover {
         background-color: var(--a-hover-color);
     }
@@ -553,8 +554,8 @@ body {
 
 .achievements, .experiences, .skills {
     margin: auto;
-    flex-direction: column;
-    gap: 2rem;
+    flex-direction: column; 
+    gap: 1rem;
 }
 
 /* Special Achievement/Experience */
@@ -563,10 +564,12 @@ body {
     transition: 0.2s;
     border-radius: 10px;
 }
-.achievement.image:hover, .experience.image:hover {
-    background: #3e3f42;
-    padding: 1rem;
-    cursor: pointer;
+
+@media (hover :hover) and (pointer: fine) {
+    .achievement.image:hover, .experience.image:hover {
+        background: #3e3f42;
+        cursor: pointer;
+    }
 }
 
 .year-2025 {
@@ -588,6 +591,7 @@ body {
 .achievement, .experience, .skill {
     max-width: var(--max-content-width);
     width: 100%;
+    padding: 1rem;
 }
 
 .achievement .header-row, 
@@ -602,6 +606,9 @@ body {
 .experience .header-row h2, 
 .skill .header-row h1 {
     margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .achievement p, .experience p, .coding-project p {
@@ -660,6 +667,7 @@ body {
     transform: translateX(10rem);
     pointer-events: none;
     overflow: hidden;
+    background-color: var(--menu-background-color);
 }
 
 .event-image.active {
@@ -681,6 +689,57 @@ body {
 .event-image p {
     margin: 0.5rem 0;
     text-align: center;
+}
+
+#image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+    pointer-events: none;
+    touch-action: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    gap: 0.5rem;
+}
+
+#image-overlay.active {
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: all;
+    touch-action: all;
+    display: flex;
+}
+
+#image-overlay .image-overlay-image-frame {
+    margin: 0 1rem;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+#image-overlay img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    max-width: 30rem;
+    max-height: 30rem;
+    object-fit: cover;
+    object-position: center;
+    pointer-events: none;
+    touch-action: none;
+}
+
+#image-overlay p {
+    margin: 0 1rem;
+    text-align: center;
+}
+
+#image-overlay.active  {
+    opacity: 100%;
+    pointer-events: all;
 }
 
 /* My Skills */
