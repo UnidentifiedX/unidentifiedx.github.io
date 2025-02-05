@@ -73,74 +73,6 @@
             "content": "International Conference on Plasma Science and Applications - Preis für die beste Präsentation"
         },
         {
-            "class": "achievement-icpsa-description",
-            "content": "Unterstützt von der University of Lucknow und der Asian African Association for Plasma Training."
-        },
-        {
-            "id": "achievement-icpsa-best-contribution",
-            "content": "International Conference on Plasma Science and Applications - Preis für den besten Gruppenbeitrag"
-        },
-        {
-            "id": "achievement-ysc-merit",
-            "content": "29th Singapore Youth Science Conference - Verdienstauszeichnung"
-        },
-        {
-            "id": "achievement-ysc-merit-description",
-            "content": "Organisiert von der Gifted Education Branch (MOE) für Schüler, die durch das Science Mentorship Program (SMP) in wissenschaftliche Forschung eingebunden sind."
-        },
-        {
-            "class": "side-bar-year-selector-header",
-            "content": "Jahresauswahl"
-        },
-        {
-            "class": "side-bar-include-categories-header",
-            "content": "Kategorien einbeziehen"
-        },
-        {
-            "class": "side-bar-priority-header",
-            "content": "Priorität"
-        },
-        {
-            "class": "side-bar-location-header",
-            "content": "Standort"
-        },
-        {
-            "class": "side-bar-type-header",
-            "content": "Typ"
-        },
-        {
-            "class": "side-bar-highlight-option",
-            "content": "Höhepunkt"
-        },
-        {
-            "class": "side-bar-international-option",
-            "content": "International"
-        },
-        {
-            "class": "side-bar-singapore-option",
-            "content": "Singapur"
-        },
-        {
-            "class": "side-bar-school-based-option",
-            "content": "Schulbasiert"
-        },
-        {
-            "class": "side-bar-research-option",
-            "content": "Forschung"
-        },
-        {
-            "class": "side-bar-academic-option",
-            "content": "Akademisch"
-        },
-        {
-            "class": "side-bar-computing-option",
-            "content": "Informatik"
-        },
-        {
-            "class": "side-bar-others-option",
-            "content": "Andere"
-        },
-        {
             "id": "my-experiences-page-header",
             "content": "Meine Erfahrungen"
         },
@@ -157,10 +89,6 @@
             "content": "Über <span class='reinforcement-learning-tracking-uav'></span>."
         },
         {
-            "class": "reinforcement-learning-tracking-uav",
-            "content": "Reinforcement Learning zur Verfolgung von unbemannten Luftfahrzeugen"
-        },
-        {
             "id": "experience-japan-presentation",
             "content": "Ausländische Vertretung beim 19th Chemistry Grand Contest in Tokio, Japan"
         },
@@ -174,7 +102,7 @@
         },
         {
             "id": "experience-hci-bugil-description",
-            "content": "Zusammenarbeit mit Schülern der Bugil Academy in Cheonan, Südkorea, zur <span class='s-cerevisiae'></span>。"
+            "content": "Zusammenarbeit mit Schülern der Bugil Academy in Cheonan, Südkorea, zur <span class='s-cerevisiae'></span>."
         },
         {
             "id": "experience-jsrc",
@@ -190,7 +118,7 @@
         },
         {
             "id": "experience-smp-description",
-            "content": "Geleitet von assoziiertem Professor Dr. Paul Lee, NIE/NTU, im Bereich Plasmaphysik. Über <span class='optimised-numerical-methods'></span>。"
+            "content": "Geleitet von assoziiertem Professor Dr. Paul Lee, NIE/NTU, im Bereich Plasmaphysik. Über <span class='optimised-numerical-methods'></span>."
         },
         {
             "id": "achievements-nothing-here",
@@ -281,6 +209,108 @@
             "content": "Immer dran, nie fertig."
         },
         {
+            "id": "project-word-bomb-cheat",
+            "content": "Word Bomb Cheat"
+        },
+        {
+            "id": "project-word-bomb-cheat-description",
+            "content": "Computervisionsmethode zur Automatisierung von Roblox' Word Bomb."
+        },
+        {
+            "id": "project-mailman",
+            "content": "Mailman"
+        },
+        {
+            "id": "project-mailman-description",
+            "content": "Discord-Bot zur E-Mail-Verifizierung."
+        },
+        {
+            "id": "project-ytsearch",
+            "content": "YTSearch.NET"
+        },
+        {
+            "id": "project-ytsearch-description",
+            "content": "YouTube-Suchbibliothek zur Suche von YouTube-Videos."
+        },
+        {
+            "id": "project-valorant-ai",
+            "content": "Valorant KI"
+        },
+        {
+            "id": "project-valorant-ai-description",
+            "content": "Valorant KI basierend auf und trainiert mit YOLOv7."
+        }
+    ],
+    "classes": [
+        {
+            "class": "achievement-icpsa-description",
+            "content": "Unterstützt von der University of Lucknow und der Asian African Association for Plasma Training."
+        },
+        {
+            "id": "achievement-icpsa-best-contribution",
+            "content": "International Conference on Plasma Science and Applications - Preis für den besten Gruppenbeitrag"
+        },
+        {
+            "id": "achievement-ysc-merit",
+            "content": "29th Singapore Youth Science Conference - Verdienstauszeichnung"
+        },
+        {
+            "id": "achievement-ysc-merit-description",
+            "content": "Organisiert von der Gifted Education Branch (MOE) für Schüler, die durch das Science Mentorship Program (SMP) in wissenschaftliche Forschung eingebunden sind."
+        },
+        {
+            "class": "side-bar-year-selector-header",
+            "content": "Jahresauswahl"
+        },
+        {
+            "class": "side-bar-include-categories-header",
+            "content": "Kategorien einbeziehen"
+        },
+        {
+            "class": "side-bar-priority-header",
+            "content": "Priorität"
+        },
+        {
+            "class": "side-bar-location-header",
+            "content": "Standort"
+        },
+        {
+            "class": "side-bar-type-header",
+            "content": "Typ"
+        },
+        {
+            "class": "side-bar-highlight-option",
+            "content": "Höhepunkt"
+        },
+        {
+            "class": "side-bar-international-option",
+            "content": "International"
+        },
+        {
+            "class": "side-bar-singapore-option",
+            "content": "Singapur"
+        },
+        {
+            "class": "side-bar-school-based-option",
+            "content": "Schulbasiert"
+        },
+        {
+            "class": "side-bar-research-option",
+            "content": "Forschung"
+        },
+        {
+            "class": "side-bar-academic-option",
+            "content": "Akademisch"
+        },
+        {
+            "class": "side-bar-computing-option",
+            "content": "Informatik"
+        },
+        {
+            "class": "side-bar-others-option",
+            "content": "Andere"
+        },
+        {
             "class": "my-projects-page-organisation",
             "content": "Organisation"
         },
@@ -291,6 +321,70 @@
         {
             "class": "optimised-numerical-methods",
             "content": "optimerte numerische Methoden zur Berechnung von Partikeln in Fusions-Hotspots und Teilcheninteraktionen in magnetisierter Liner-Inertialfusion (MagLIF)"
+        },
+        {
+            "class": "reinforcement-learning-tracking-uav",
+            "content": "Reinforcement-Learning-Modell zur Verfolgung von unbemannten Luftfahrzeugen"
+        },
+        {
+            "class": "research-project-abstract",
+            "content": "Abstrakt (auf Englisch): "
+        },
+        {
+            "class": "chitin-derived-hydrogels",
+            "content": "Synthese und Eigenschaften von Chitin-basierten Hydrogelen"
+        },
+        {
+            "class": "show-more",
+            "content": "Mehr anzeigen"
+        },
+        {
+            "class": "show-less",
+            "content": "Weniger anzeigen"
+        },
+        {
+            "class": "project-category-control-systems",
+            "content": "Regelkreise"
+        },
+        {
+            "class": "project-category-artificial-intelligence",
+            "content": "Künstliche Intelligenz"
+        },
+        {
+            "class": "project-category-reinforcement-learning",
+            "content": "Bestärkendes Lernen"
+        },
+        {
+            "class": "project-category-materials-science",
+            "content": "Materialwissenschaften"
+        },
+        {
+            "class": "project-category-biochemistry",
+            "content": "Biochemie"
+        },
+        {
+            "class": "project-category-environmental-chemistry",
+            "content": "Umweltchemie"
+        },
+        {
+            "class": "project-category-nuclear-fusion",
+            "content": "Kernfusion"
+        },
+        {
+            "class": "project-category-numerical-analysis",
+            "content": "Numerische Mathematik"
+        },
+        {
+            "class": "project-category-plasma-physics",
+            "content": "Plasmaphysik"
+        },
+        {
+            "class": "project-cateogry-web-scraping",
+            "content": "Screen Scraping"
+        },
+        {
+            "class": "project-cateogry-computer-vision",
+            "content": "Computer Vision"
         }
     ]
 }

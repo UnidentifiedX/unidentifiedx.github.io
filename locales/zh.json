@@ -73,10 +73,6 @@
             "content": "等离子体科学与应用国际会议 - 最佳报告奖"
         },
         {
-            "class": "achievement-icpsa-description",
-            "content": "由勒克瑙大学和亚非等离子体培训协会支持。"
-        },
-        {
             "id": "achievement-icpsa-best-contribution",
             "content": "等离子体科学与应用国际会议 - 小组最佳贡献奖"
         },
@@ -89,58 +85,6 @@
             "content": "由教育部高才教育计划分部组织为参与科学导师计划 (SMP) 中科学研究的学生所举办。"
         },
         {
-            "class": "side-bar-year-selector-header",
-            "content": "选择年份"
-        },
-        {
-            "class": "side-bar-include-categories-header",
-            "content": "包含类别"
-        },
-        {
-            "class": "side-bar-priority-header",
-            "content": "优先"
-        },
-        {
-            "class": "side-bar-location-header",
-            "content": "范围"
-        },
-        {
-            "class": "side-bar-type-header",
-            "content": "类型"
-        },
-        {
-            "class": "side-bar-highlight-option",
-            "content": "亮点"
-        },
-        {
-            "class": "side-bar-international-option",
-            "content": "国际"
-        },
-        {
-            "class": "side-bar-singapore-option",
-            "content": "新加坡"
-        },
-        {
-            "class": "side-bar-school-based-option",
-            "content": "校内"
-        },
-        {
-            "class": "side-bar-research-option",
-            "content": "研究"
-        },
-        {
-            "class": "side-bar-academic-option",
-            "content": "学术"
-        },
-        {
-            "class": "side-bar-computing-option",
-            "content": "计算机"
-        },
-        {
-            "class": "side-bar-others-option",
-            "content": "其它"
-        },
-        {
             "id": "my-experiences-page-header",
             "content": "我的经验"
         },
@@ -150,15 +94,11 @@
         },
         {
             "id": "experience-dsta-internship",
-            "content": "新加坡国防科技局"
+            "content": "新加坡国防科技局实习"
         },
         {
             "id": "experience-dsta-internship-description",
             "content": "关于<span class='reinforcement-learning-tracking-uav'></span>。"
-        },
-        {
-            "class": "reinforcement-learning-tracking-uav",
-            "content": "利用强化学习追踪无人驾驶航空器"
         },
         {
             "id": "experience-japan-presentation",
@@ -281,6 +221,92 @@
             "content": "永远在做，从未完成。"
         },
         {
+            "id": "project-word-bomb-cheat",
+            "content": "Word Bomb 作弊"
+        },
+        {
+            "id": "project-word-bomb-cheat-description",
+            "content": "用于自动化 Roblox《Word Bomb》的计算机视觉方法。"
+        },
+        {
+            "id": "project-mailman",
+            "content": "Mailman"
+        },
+        {
+            "id": "project-mailman-description",
+            "content": "用于电子邮件验证的 Discord 机器人。"
+        },
+        {
+            "id": "project-ytsearch",
+            "content": "YTSearch.NET"
+        },
+        {
+            "id": "project-ytsearch-description",
+            "content": "YouTube 搜索库，用于搜索 YouTube 视频。"
+        },
+        {
+            "id": "project-valorant-ai",
+            "content": "Valorant 人工智能"
+        },
+        {
+            "id": "project-valorant-ai-description",
+            "content": "基于 YOLOv7 的 Valorant 人工智能。"
+        }
+    ],
+    "classes": [
+        {
+            "class": "side-bar-year-selector-header",
+            "content": "选择年份"
+        },
+        {
+            "class": "side-bar-include-categories-header",
+            "content": "包含类别"
+        },
+        {
+            "class": "side-bar-priority-header",
+            "content": "优先"
+        },
+        {
+            "class": "side-bar-location-header",
+            "content": "范围"
+        },
+        {
+            "class": "side-bar-type-header",
+            "content": "类型"
+        },
+        {
+            "class": "side-bar-highlight-option",
+            "content": "亮点"
+        },
+        {
+            "class": "side-bar-international-option",
+            "content": "国际"
+        },
+        {
+            "class": "side-bar-singapore-option",
+            "content": "新加坡"
+        },
+        {
+            "class": "side-bar-school-based-option",
+            "content": "校内"
+        },
+        {
+            "class": "side-bar-research-option",
+            "content": "研究"
+        },
+        {
+            "class": "side-bar-academic-option",
+            "content": "学术"
+        },
+        {
+            "class": "side-bar-computing-option",
+            "content": "计算机"
+        },
+        {
+            "class": "side-bar-others-option",
+            "content": "其它"
+        },
+        {
             "class": "my-projects-page-organisation",
             "content": "机构"
         },
@@ -291,6 +317,74 @@
         {
             "class": "optimised-numerical-methods",
             "content": "以优化数值方法计算聚变热点中的粒子及磁化内衬惯性核聚变 (MagLIF) 中粒子的相互作用"
-        }
+        },
+        {
+            "class": "achievement-icpsa-description",
+            "content": "由勒克瑙大学和亚非等离子体培训协会支持。"
+        },
+        {
+            "class": "reinforcement-learning-tracking-uav",
+            "content": "利用强化学习模型追踪无人驾驶航空器"
+        },
+        {
+            "class": "research-project-abstract",
+            "content": "摘要 (英文): "
+        },
+        {
+            "class": "chitin-derived-hydrogels",
+            "content": "甲壳质衍生物水凝胶的合成与性质"
+        },
+        {
+            "class": "show-more",
+            "content": "显示更多"
+        },
+        {
+            "class": "show-less",
+            "content": "显示更少"
+        },
+        {
+            "class": "project-category-control-systems",
+            "content": "控制系统"
+        },
+        {
+            "class": "project-category-artificial-intelligence",
+            "content": "人工智能"
+        },
+        {
+            "class": "project-category-reinforcement-learning",
+            "content": "强化学习"
+        },
+        {
+            "class": "project-category-materials-science",
+            "content": "材料科学"
+        },
+        {
+            "class": "project-category-biochemistry",
+            "content": "生物化学"
+        },
+        {
+            "class": "project-category-environmental-chemistry",
+            "content": "环境化学"
+        },
+        {
+            "class": "project-category-nuclear-fusion",
+            "content": "核聚变"
+        },
+        {
+            "class": "project-category-numerical-analysis",
+            "content": "数值分析"
+        },
+        {
+            "class": "project-category-plasma-physics",
+            "content": "等离子体物理"
+        },
+        {
+            "class": "project-cateogry-web-scraping",
+            "content": "网页抓取"
+        },
+        {
+            "class": "project-cateogry-computer-vision",
+            "content": "计算机视觉"
+        }           
     ]
 }

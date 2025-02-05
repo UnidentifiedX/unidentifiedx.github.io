@@ -603,8 +603,7 @@ body {
 }
 
 .achievement .header-row h2, 
-.experience .header-row h2, 
-.skill .header-row h1 {
+.experience .header-row h2 {
     margin-right: 2rem;
     display: flex;
     justify-content: space-between;
@@ -840,6 +839,24 @@ body {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+}
+
+.show-more, .show-less {
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}
+
+.show-more.active, .show-less.active {
+    display: inline;
+}
+
+.abstract {
+    display: none;
+}
+
+.abstract.active {
+    display: inline;
 }
 
 .projects .banner {

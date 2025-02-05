@@ -73,10 +73,6 @@
             "content": "International Conference on Plasma Science and Applications - Best Presentation Award"
         },
         {
-            "class": "achievement-icpsa-description",
-            "content": "Supported by the University of Lucknow and the Asian African Association for Plasma Training."
-        },
-        {
             "id": "achievement-icpsa-best-contribution",
             "content": "International Conference on Plasma Science and Applications - Best Contribution in Group Award"
         },
@@ -87,58 +83,6 @@
         {
             "id": "achievement-ysc-merit-description",
             "content": "Organised by the Gifted Education Branch (MOE) for students involved in scientific research under the Science Mentorship Programme (SMP)."
-        },
-        {
-            "class": "side-bar-year-selector-header",
-            "content": "Year Selector"
-        },
-        {
-            "class": "side-bar-include-categories-header",
-            "content": "Include Categories"
-        },
-        {
-            "class": "side-bar-priority-header",
-            "content": "PRIORITY"
-        },
-        {
-            "class": "side-bar-location-header",
-            "content": "LOCATION"
-        },
-        {
-            "class": "side-bar-type-header",
-            "content": "TYPE"
-        },
-        {
-            "class": "side-bar-highlight-option",
-            "content": "Highlight"
-        },
-        {
-            "class": "side-bar-international-option",
-            "content": "International"
-        },
-        {
-            "class": "side-bar-singapore-option",
-            "content": "Singapore"
-        },
-        {
-            "class": "side-bar-school-based-option",
-            "content": "School-Based"
-        },
-        {
-            "class": "side-bar-research-option",
-            "content": "Research"
-        },
-        {
-            "class": "side-bar-academic-option",
-            "content": "Academic"
-        },
-        {
-            "class": "side-bar-computing-option",
-            "content": "Computing"
-        },
-        {
-            "class": "side-bar-others-option",
-            "content": "Others"
         },
         {
             "id": "my-experiences-page-header",
@@ -155,10 +99,6 @@
         {
             "id": "experience-dsta-internship-description",
             "content": "On <span class='reinforcement-learning-tracking-uav'></span>."
-        },
-        {
-            "class": "reinforcement-learning-tracking-uav",
-            "content": "Reinforcement Learning for the Tracking of Unmanned Aerial Vehicles"
         },
         {
             "id": "experience-japan-presentation",
@@ -281,6 +221,40 @@
             "content": "Always doing, never done."
         },
         {
+            "id": "project-word-bomb-cheat",
+            "content": "Word Bomb Cheat"
+        },
+        {
+            "id": "project-word-bomb-cheat-description",
+            "content": "Computer vision method for automating Roblox's Word Bomb."
+        },
+        {
+            "id": "project-mailman",
+            "content": "Mailman"
+        },
+        {
+            "id": "project-mailman-description",
+            "content": "Discord bot for email verification."
+        },
+        {
+            "id": "project-ytsearch",
+            "content": "YTSearch.NET"
+        },
+        {
+            "id": "project-ytsearch-description",
+            "content": "YouTube-Search library to search for YouTube videos."
+        },
+        {
+            "id": "project-valorant-ai",
+            "content": "Valorant AI"
+        },
+        {
+            "id": "project-valorant-ai-description",
+            "content": "Valorant AI based and trained on YOLOv7."
+        }
+    ],
+    "classes": [
+        {
             "class": "my-projects-page-organisation",
             "content": "Organisation"
         },
@@ -291,6 +265,126 @@
         {
             "class": "optimised-numerical-methods",
             "content": "Optimised Numerical Methods for the Computation of Particles in Fusion Hotspots and Particle Interactions in Magnetised Liner Inertial Fusion (MagLIF)"
+        },
+        {
+            "class": "side-bar-academic-option",
+            "content": "Academic"
+        },
+        {
+            "class": "side-bar-computing-option",
+            "content": "Computing"
+        },
+        {
+            "class": "side-bar-others-option",
+            "content": "Others"
+        },
+        {
+            "class": "side-bar-year-selector-header",
+            "content": "Year Selector"
+        },
+        {
+            "class": "side-bar-include-categories-header",
+            "content": "Include Categories"
+        },
+        {
+            "class": "side-bar-priority-header",
+            "content": "PRIORITY"
+        },
+        {
+            "class": "side-bar-location-header",
+            "content": "LOCATION"
+        },
+        {
+            "class": "side-bar-type-header",
+            "content": "TYPE"
+        },
+        {
+            "class": "side-bar-highlight-option",
+            "content": "Highlight"
+        },
+        {
+            "class": "side-bar-international-option",
+            "content": "International"
+        },
+        {
+            "class": "side-bar-singapore-option",
+            "content": "Singapore"
+        },
+        {
+            "class": "side-bar-school-based-option",
+            "content": "School-Based"
+        },
+        {
+            "class": "side-bar-research-option",
+            "content": "Research"
+        },
+        {
+            "class": "achievement-icpsa-description",
+            "content": "Supported by the University of Lucknow and the Asian African Association for Plasma Training."
+        },
+        {
+            "class": "reinforcement-learning-tracking-uav",
+            "content": "Reinforcement Learning Model for the Tracking of Unmanned Aerial Vehicles"
+        },
+        {
+            "class": "research-project-abstract",
+            "content": "Abstract: "
+        },
+        {
+            "class": "chitin-derived-hydrogels",
+            "content": "Synthesis and Properties of Chitin-derived Hydrogels"
+        },
+        {
+            "class": "show-more",
+            "content": "Show More"
+        },
+        {
+            "class": "show-less",
+            "content": "Show Less"
+        },
+        {
+            "class": "project-category-control-systems",
+            "content": "Control Systems"
+        },
+        {
+            "class": "project-category-artificial-intelligence",
+            "content": "Artificial Intelligence"
+        },
+        {
+            "class": "project-category-reinforcement-learning",
+            "content": "Reinforcement Learning"
+        },
+        {
+            "class": "project-category-materials-science",
+            "content": "Materials Science"
+        },
+        {
+            "class": "project-category-biochemistry",
+            "content": "Biochemistry"
+        },
+        {
+            "class": "project-category-environmental-chemistry",
+            "content": "Environmental Chemistry"
+        },
+        {
+            "class": "project-category-nuclear-fusion",
+            "content": "Nuclear Fusion"
+        },
+        {
+            "class": "project-category-numerical-analysis",
+            "content": "Numerical Analysis"
+        },
+        {
+            "class": "project-category-plasma-physics",
+            "content": "Plasma Physics"
+        },
+        {
+            "class": "project-cateogry-web-scraping",
+            "content": "Web Scraping"
+        },
+        {
+            "class": "project-cateogry-computer-vision",
+            "content": "Computer Vision"
         }
     ]
 }

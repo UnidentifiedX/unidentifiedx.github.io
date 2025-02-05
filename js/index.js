@@ -85,21 +85,24 @@ async function setLanguage(locale) {
     const response = await fetch(`/locales/${locale}.json`)
     const localeJSON = await response.json()
     const translations = localeJSON.translations
+    const classes = localeJSON.classes
 
     translations.forEach(translation => {
         const id = translation.id
-        const className = translation.class
         const content = translation.content
+        const element = document.getElementById(id)
+        
+        if (!element) return
+        element.innerHTML = content
+    })
 
-        if (id) {
-            const element = document.getElementById(id)
-            if (!element) return
+    classes.forEach(entry => {
+        const className = entry.class
+        const content = entry.content
+        const elements = document.getElementsByClassName(className)
+
+        for (let element of elements) {
             element.innerHTML = content
-        } else {
-            const elements = document.getElementsByClassName(className)
-            for (let element of elements) {
-                element.innerHTML = content
-            }
         }
     })
 }
@@ -274,6 +277,12 @@ function hideImageOverlay() {
     overlay.classList.remove("active")
 
     // overlay.onclick = null // prevent conflicts
+}
+
+function showMoreLess(button) {
+    button.parentElement.getElementsByClassName("abstract")[0].classList.toggle("active")
+    button.parentElement.getElementsByClassName("show-more")[0].classList.toggle("active")
+    button.parentElement.getElementsByClassName("show-less")[0].classList.toggle("active")
 }
 
 setLanguage(localStorage.getItem("language") || "en").then(() => {
