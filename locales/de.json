@@ -73,6 +73,18 @@
             "content": "International Conference on Plasma Science and Applications - Preis für die beste Präsentation"
         },
         {
+            "id": "achievement-icpsa-best-contribution",
+            "content": "International Conference on Plasma Science and Applications - Preis für den besten Gruppenbeitrag"
+        },
+        {
+            "id": "achievement-ysc-merit",
+            "content": "29th Singapore Youth Science Conference - Verdienstauszeichnung"
+        },
+        {
+            "id": "achievement-ysc-merit-description",
+            "content": "Organisiert von der Gifted Education Branch (MOE) für Schüler, die durch das Science Mentorship Program (SMP) in wissenschaftliche Forschung eingebunden sind."
+        },
+        {
             "id": "my-experiences-page-header",
             "content": "Meine Erfahrungen"
         },
@@ -94,7 +106,7 @@
         },
         {
             "id": "experience-japan-presentation-description",
-            "content": "Präsentierten unser Projekt als Gastredner über die <span class='s-cerevisiae'></span>. Außerdem wurden wir offiziell Mitglied des Sakura Science Programme."
+            "content": "Präsentierten unser Projekt als Gastredner über <span class='s-cerevisiae'></span>. Außerdem wurden wir offiziell Mitglied des Sakura Science Programme."
         },
         {
             "id": "experience-hci-bugil",
@@ -239,24 +251,148 @@
         {
             "id": "project-valorant-ai-description",
             "content": "Valorant KI basierend auf und trainiert mit YOLOv7."
-        }
+        },
+        {
+            "id": "go-to-year",
+            "content": "Gehe zu Jahr:"
+        },
+        {
+            "id": "achievement-sentinel-challenge-first",
+            "content": "Sentinel Challenge - 1. Platz (Einladungskategorie)"
+        },
+        {
+            "id": "achievement-icq",
+            "content": "Internationaler Chemiewettbewerb - Höchste Auszeichnung"
+        },
+        {
+            "id": "achievement-icq-description",
+            "content": "Organisiert vom Royal Australian Chemical Institute."
+        },
+        {
+            "id": "achievement-siberrsec",
+            "content": "Sieberrsec CTF 5.0 - 4. Platz"
+        },
+        {
+            "id": "achievement-siberrsec-description",
+            "content": "Cybersecurity-CTF-Wettbewerb, unterstützt von DIS, DSO, Smart Nation Singapore, HTX und DSTA."
+        },
+        {
+            "id": "project-iemb-mobile",
+            "content": "iEMB Mobile"
+        },
+        {
+            "id": "project-iemb-mobile-description",
+            "content": "Mobile Client für das integrierte e-Message-Board (iEMB) der Hwa Chong Institution."
+        },
+        {
+            "id": "achievement-sentinel-challenge-third",
+            "content": "Sentinel Challenge - 3. Platz (Einladungskategorie)"
+        },
+        {
+            "id": "achievement-projects-day-s-cerevisiae-description",
+            "content": "Über <span class='s-cerevisiae'></span>."
+        },
+        {
+            "id": "achievement-nsg-4x100-relay",
+            "content": "<span class='national-school-games'></span> 4x100m-Staffellauf - Gold"
+        },
+        {
+            "id": "achievement-nsg-4x100-relay-description",
+            "content": "<span class='national-school-games-c-div-boys'></span> 4x100m-Staffellauf."
+        },
+        {
+            "id": "achievement-nsg-200m-hurdles",
+            "content": "<span class='national-school-games'></span> 200m Hürdenlauf - Silber"
+        },
+        {
+            "id": "achievement-nsg-200m-hurdles-description",
+            "content": "<span class='national-school-games-c-div-boys'></span> 200m-Hürdenlauf."
+        },
+        {
+            "id": "achievement-nsg-100m-hurdles",
+            "content": "<span class='national-school-games'></span> 100m Hürdenlauf - 4. Platz"
+        },
+        {
+            "id": "achievement-nsg-100m-hurdles-description",
+            "content": "<span class='national-school-games-c-div-boys'></span> 100m-Hürdenlauf."
+        },
+        {
+            "id": "achievement-nsg-4x400-relay",
+            "content": "<span class='national-school-games'></span> 4x100m-Staffellauf - 4. Platz"
+        },
+        {
+            "id": "achievement-nsg-4x400-relay-description",
+            "content": "<span class='national-school-games-c-div-boys'></span> 4x100m-Staffellauf."
+        },
+        {
+            "id": "achievement-projects-day-chitin-derived-hydrogels-description",
+            "content": "Über <span class='chitin-derived-hydrogels'></span>."
+        },
+        {
+            "id": "achievement-projects-day-better-ui-description",
+            "content": "Über <span class='better-ui'></span>."
+        },
+        {
+            "id": "achievement-astar-science-award",
+            "content": "A*STAR-Wissenschaftspreis (Sekundarstufe II)"
+        },
+        {
+            "id": "achievement-astar-science-award-description",
+            "content": "Für Schüler, die eine starke Begabung und ein großes Interesse an Naturwissenschaften und Mathematik zeigen."
+        },
+        {
+            "id": "experience-fan-si-pan",
+            "content": "Fan-Si-Pan-Abenteuerwanderung in Sa Pa, Vietnam"
+        },
+        {
+            "id": "experience-fan-si-pan-description",
+            "content": "Einwöchiges Abenteuer mit Erkundung der Straßen und der Geschichte Vietnams. Besonders hervorzuheben ist die Besteigung des höchsten Berges in Indochina – Fan Si Pan mit einer Höhe von 3147 m."
+        },
+        {
+            "id": "experience-hwa-chong-dominion",
+            "content": "Hwa-Chong-Dominion-High-School-Austauschprogramm"
+        },
+        {
+            "id": "experience-hwa-chong-dominion-description",
+            "content": "Gastgeber für Austauschschüler der Dominion High School in Loudoun County, Virginia, USA."
+        },
+        {
+            "id": "experience-student-councillor",
+            "content": "Schülerratmitglied"
+        },
+        {
+            "id": "experience-student-councillor-description",
+            "content": "Diente den Bedürfnissen der Schüler durch die Organisation wichtiger schulweiter Veranstaltungen, darunter die Nationalfeier und die Jahresabschlussfeier, als Organisationssekretär. War außerdem Mentor für Erstklässler während der Orientierungswochen 2022 und 2023 sowie Betreuer beim Tag der offenen Tür."
+        },
+        {
+            "id": "experience-student-councillor",
+            "content": "Schülerratmitglied"
+        },
+        {
+            "id": "experience-student-councillor-description",
+            "content": "Diente den Bedürfnissen der Schüler durch die Organisation wichtiger schulweiter Veranstaltungen, darunter die Nationalfeier und die Jahresabschlussfeier, als Organisationssekretär. War außerdem Mentor für Erstklässler während der Orientierungswochen 2022 und 2023 sowie Betreuer beim Tag der offenen Tür."
+        },
+        {
+            "id": "experience-ong-teng-cheong",
+            "content": "Ong-Teng-Cheong-Leadership-Zertifizierungsprogramm"
+        },
+        {
+            "id": "experience-ong-teng-cheong-description",
+            "content": "Einwöchiges Leadership-Camp mit Besuchen in A*STAR-Laboren und Logistikunternehmen, um mehr über Führungserfahrungen zu lernen."
+        },
+        {
+            "id": "experience-animatronics",
+            "content": "Animatronik auf KI-Art und Retro-Spieleprogrammierung"
+        },
+        {
+            "id": "experience-animatronics-description",
+            "content": "Einwöchiges Sabbatikum zur Entwicklung von Retro-Spielen auf einem Arduino Pico sowie eine Einführung in Robotik und künstliche Intelligenz."
+        }                                                     
     ],
     "classes": [
         {
             "class": "achievement-icpsa-description",
             "content": "Unterstützt von der University of Lucknow und der Asian African Association for Plasma Training."
-        },
-        {
-            "id": "achievement-icpsa-best-contribution",
-            "content": "International Conference on Plasma Science and Applications - Preis für den besten Gruppenbeitrag"
-        },
-        {
-            "id": "achievement-ysc-merit",
-            "content": "29th Singapore Youth Science Conference - Verdienstauszeichnung"
-        },
-        {
-            "id": "achievement-ysc-merit-description",
-            "content": "Organisiert von der Gifted Education Branch (MOE) für Schüler, die durch das Science Mentorship Program (SMP) in wissenschaftliche Forschung eingebunden sind."
         },
         {
             "class": "side-bar-year-selector-header",
@@ -385,6 +521,46 @@
         {
             "class": "project-cateogry-computer-vision",
             "content": "Computer Vision"
-        }
+        },
+        {
+            "class": "achievement-sentinel-challenge-description",
+            "content": "Cybersecurity-CTF-Wettbewerb, organisiert vom Verteidigungsministerium Singapur."
+        },
+        {
+            "class": "project-category-mobile-development",
+            "content": "Mobile Entwicklung"
+        },
+        {
+            "class": "achievement-sssc-colours",
+            "content": "SSSC Colours Award"
+        },
+        {
+            "class": "achievement-sssc-colours-description",
+            "content": "Ausgezeichnet für sportliche Leistungen und vorbildlichen Sportsgeist."
+        },
+        {
+            "class": "achievement-singapore-math-olympiad-hm",
+            "content": "Singapore Mathematical Olympiad - Ehrenvolle Erwähnung"
+        },
+        {
+            "class": "achievement-singapore-math-olympiad-hm-description",
+            "content": "SMO Senioren-Sektion."
+        },
+        {
+            "class": "national-school-games",
+            "content": "Nationale Schulmeisterschaften"
+        },
+        {
+            "class": "national-school-games-c-div-boys",
+            "content": "2022 NSG Leichtathletik-Meisterschaften 'C' Jungen"
+        },
+        {
+            "class": "hwa-chong-projects-day-high-d",
+            "content": "Hwa Chong Projekttag-Wettbewerb - Höchste Auszeichnung"
+        },
+        {
+            "class": "better-ui",
+            "content": "BetterUI: Wichtige schulische Dienste in einer All-in-One-Anwendung bündeln"
+        }             
     ]
 }

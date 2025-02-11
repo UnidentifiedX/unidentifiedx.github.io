@@ -234,7 +234,7 @@ function showHighlightImage(directory, descriptionCode) {
         },
         "jsrc": {
             "en": "Junior Science Research Camp (2024)",
-            "zh": "青少年科学研究营 (2024)",
+            "zh": "华中小科学家研究营 (2024)",
             "de": "Junior Science Research Camp (2024)"
         },
         "dhs-hci": {
@@ -290,7 +290,7 @@ setLanguage(localStorage.getItem("language") || "en").then(() => {
     updateAgeText()
     updateCurrentYearText()
     updateCurrentYearIndicator()
-    filterListByCategory([...document.getElementsByClassName("checkbox-highlight")].find(el => el.offsetParent !== null))
+    // filterListByCategory([...document.getElementsByClassName("checkbox-highlight")].find(el => el.offsetParent !== null))
 
     setInterval(changeHobbyText, 3000) // every 3 seconds
     window.addEventListener('scroll', updateCurrentYearIndicator); // Listen for scroll events

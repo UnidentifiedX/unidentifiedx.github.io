@@ -251,6 +251,134 @@
         {
             "id": "project-valorant-ai-description",
             "content": "Valorant AI based and trained on YOLOv7."
+        },
+        {
+            "id": "go-to-year",
+            "content": "Go to year:"
+        },
+        {
+            "id": "achievement-sentinel-challenge-first",
+            "content": "Sentinel Challenge - 1st Invitational"
+        },
+        {
+            "id": "achievement-icq",
+            "content": "International Chemistry Quiz - High Distinction"
+        },
+        {
+            "id": "achievement-icq-description",
+            "content": "Organised by the Royal Australian Chemical Institute."
+        },
+        {
+            "id": "achievement-siberrsec",
+            "content": "Sieberrsec CTF 5.0 - 4th Placing"
+        },
+        {
+            "id": "achievement-siberrsec-description",
+            "content": "Cybersecurity CTF competition supported by DIS, DSO, Smart Nation Singapore, HTX and DSTA."
+        },
+        {
+            "id": "project-iemb-mobile",
+            "content": "iEMB Mobile"
+        },
+        {
+            "id": "project-iemb-mobile-description",
+            "content": "Mobile client for Hwa Chong Institution's Integrated e-Message Board (iEMB)."
+        },
+        {
+            "id": "achievement-sentinel-challenge-third",
+            "content": "Sentinel Challenge - 3rd Invitational"
+        },
+        {
+            "id": "achievement-sentinel-challenge-third",
+            "content": "Sentinel Challenge - 3rd Invitational"
+        },
+        {
+            "id": "achievement-projects-day-s-cerevisiae-description",
+            "content": "On the <span class='s-cerevisiae'></span>."
+        },
+        {
+            "id": "achievement-nsg-4x100-relay",
+            "content": "<span class='national-school-games'></span> 4x100m Relay - Gold"
+        },
+        {
+            "id": "achievement-nsg-4x100-relay-description",
+            "content": "<span class='national-school-games-c-div-boys'></span> 4x100m Relay."
+        },
+        {
+            "id": "achievement-nsg-200m-hurdles",
+            "content": "<span class='national-school-games'></span> 200m Hurdles - Silver"
+        },
+        {
+            "id": "achievement-nsg-200m-hurdles-description",
+            "content": "<span class='national-school-games-c-div-boys'></span> 200m Hurdles."
+        },
+        {
+            "id": "achievement-nsg-100m-hurdles",
+            "content": "<span class='national-school-games'></span> 100m Hurdles - 4th Placing"
+        },
+        {
+            "id": "achievement-nsg-100m-hurdles-description",
+            "content": "<span class='national-school-games-c-div-boys'></span> 100m Hurdles."
+        },
+        {
+            "id": "achievement-nsg-4x400-relay",
+            "content": "<span class='national-school-games'></span> 4x400m Relay - 4th Placing"
+        },
+        {
+            "id": "achievement-nsg-4x400-relay-description",
+            "content": "<span class='national-school-games-c-div-boys'></span> 4x400m Relay."
+        },
+        {
+            "id": "achievement-projects-day-chitin-derived-hydrogels",
+            "content": "On the <span class='chitin-derived-hydrogels'></span>."
+        },
+        {
+            "id": "achievement-projects-day-chitin-derived-hydrogels-description",
+            "content": "On the <span class='chitin-derived-hydrogels'></span>."
+        },
+        {
+            "id": "achievement-projects-day-better-ui-description",
+            "content": "On <span class='better-ui'></span>."
+        },
+        {
+            "id": "achievement-astar-science-award",
+            "content": "A*STAR Science Award (Upper Secondary)"
+        },
+        {
+            "id": "achievement-astar-science-award-description",
+            "content": "For students who show strong aptitude and interest in science and mathematics."
+        },
+        {
+            "id": "experience-fan-si-pan",
+            "content": "Fan Si Pan Adventure Hike in Sa Pa, Vietnam"
+        },
+        {
+            "id": "experience-fan-si-pan-description",
+            "content": "1 week adventure exploring the streets and learning the history of Vietnam. Most notably scaled the tallest mountain in Indochina - Fan Si Pan, standing at 3147 m."
+        },
+        {
+            "id": "experience-hwa-chong-dominion",
+            "content": "Hwa Chong-Dominion High School Exchange Programme"
+        },
+        {
+            "id": "experience-hwa-chong-dominion-description",
+            "content": "Hosted buddies from Dominion High School in Loudoun County, Virginia, USA."
+        },
+        {
+            "id": "experience-ong-teng-cheong",
+            "content": "Ong Teng Cheong Leadership Certification Programme"
+        },
+        {
+            "id": "experience-ong-teng-cheong-description",
+            "content": "Week-long leadership camp, including trips to A*STAR laboratories and logistics companies to learn more about leadership experiences."
+        },
+        {
+            "id": "experience-animatronics",
+            "content": "Animatronics the AI Way and Retro Game Programming"
+        },
+        {
+            "id": "experience-animatronics-description",
+            "content": "Week-long sabbatical developing retro games on an Arduino Pico as well as introduction to robotics and artificial intelligence."
         }
     ],
     "classes": [
@@ -385,6 +513,46 @@
         {
             "class": "project-cateogry-computer-vision",
             "content": "Computer Vision"
+        },
+        {
+            "class": "achievement-sentinel-challenge-description",
+            "content": "Cybersecurity CTF competition organised by the Ministry of Defence Singapore."
+        },
+        {
+            "class": "project-cateogry-mobile-development",
+            "content": "Mobile Development"
+        },
+        {
+            "class": "achievement-sssc-colours",
+            "content": "SSSC Colours Award"
+        },
+        {
+            "class": "achievement-sssc-colours-description",
+            "content": "Awarded for sporting achievements and display of good sporting character."
+        },
+        {
+            "class": "achievement-singapore-math-olympiad-hm",
+            "content": "Singapore Mathematical Olympiad - Honorable Mention"
+        },
+        {
+            "class": "achievement-singapore-math-olympiad-hm-description",
+            "content": "SMO Senior Section."
+        },
+        {
+            "class": "national-school-games",
+            "content": "National School Games"
+        },
+        {
+            "class": "national-school-games-c-div-boys",
+            "content": "2022 NSG Track & Field Championships 'C' Division Boys"
+        },
+        {
+            "class": "hwa-chong-projects-day-high-d",
+            "content": "Hwa Chong Projects Day Competition - High Distinction"
+        },
+        {
+            "class": "better-ui",
+            "content": "BetterUI: Condensing important school services into an all-in-one application"
         }
     ]
 }

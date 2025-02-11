@@ -251,6 +251,134 @@
         {
             "id": "project-valorant-ai-description",
             "content": "基于 YOLOv7 的 Valorant 人工智能。"
+        },
+        {
+            "id": "go-to-year",
+            "content": "跳转到年份:"
+        },
+        {
+            "id": "achievement-sentinel-challenge-first",
+            "content": "Sentinel Challenge - 邀请赛第一名"
+        },
+        {
+            "id": "achievement-icq",
+            "content": "国际化学测验 - 特优奖"
+        },
+        {
+            "id": "achievement-icq-description",
+            "content": "由澳大利亚皇家化学研究所主办。"
+        },
+        {
+            "id": "achievement-siberrsec",
+            "content": "Sieberrsec CTF 5.0 - 第四名"
+        },
+        {
+            "id": "achievement-siberrsec-description",
+            "content": "由 DIS、DSO、智慧国新加坡、HTX 和 DSTA 支持的网络安全 CTF 竞赛。"
+        },
+        {
+            "id": "project-iemb-mobile",
+            "content": "iEMB 手机应用程序"
+        },
+        {
+            "id": "project-iemb-mobile-description",
+            "content": "给华中电子公告板 (iEMB) 的手机应用程序。"
+        },
+        {
+            "id": "achievement-sentinel-challenge-third",
+            "content": "Sentinel Challenge - 邀请赛第三名"
+        },
+        {
+            "id": "achievement-projects-day-s-cerevisiae-description",
+            "content": "关于<span class='s-cerevisiae'></span>。"
+        },
+        {
+            "id": "achievement-nsg-4x100-relay",
+            "content": "<span class='national-school-games'></span>4x100米接力 - 金牌"
+        },
+        {
+            "id": "achievement-nsg-4x100-relay-description",
+            "content": "<span class='national-school-games-c-div-boys'></span>4x100米接力。"
+        },
+        {
+            "id": "achievement-nsg-200m-hurdles",
+            "content": "<span class='national-school-games'></span>200米栏 - 银牌"
+        },
+        {
+            "id": "achievement-nsg-200m-hurdles-description",
+            "content": "<span class='national-school-games-c-div-boys'></span>200米栏"
+        },
+        {
+            "id": "achievement-nsg-100m-hurdles",
+            "content": "<span class='national-school-games'></span>100米栏 - 第四名"
+        },
+        {
+            "id": "achievement-nsg-100m-hurdles-description",
+            "content": "<span class='national-school-games-c-div-boys'></span>100米栏."
+        },
+        {
+            "id": "achievement-nsg-4x400-relay",
+            "content": "<span class='national-school-games'></span>4x400米接力 - 第四名"
+        },
+        {
+            "id": "achievement-nsg-4x400-relay-description",
+            "content": "<span class='national-school-games-c-div-boys'></span>4x400米接力。"
+        },
+        {
+            "id": "achievement-projects-day-chitin-derived-hydrogels-description",
+            "content": "关于<span class='chitin-derived-hydrogels'></span>。"
+        },
+        {
+            "id": "achievement-projects-day-better-ui-description",
+            "content": "关于<span class='better-ui'></span>。"
+        },
+        {
+            "id": "achievement-astar-science-award",
+            "content": "A*STAR 科学奖 (高年级)"
+        },
+        {
+            "id": "achievement-astar-science-award-description",
+            "content": "授予在科学和数学方面表现出色并具有浓厚兴趣的学生。"
+        },
+        {
+            "id": "experience-fan-si-pan",
+            "content": "越南沙巴番西邦探险徒步"
+        },
+        {
+            "id": "experience-fan-si-pan-description",
+            "content": "为期一周的冒险，探索街道并了解越南历史。最值得一提的是成功登顶印度支那最高峰 - 海拔 3147 米的番西邦峰。"
+        },
+        {
+            "id": "experience-hwa-chong-dominion",
+            "content": "华中-Dominion 高中交流项目"
+        },
+        {
+            "id": "experience-hwa-chong-dominion-description",
+            "content": "接待来自美国弗吉尼亚州劳登县 Dominion 高中的交流伙伴。"
+        },
+        {
+            "id": "experience-student-councillor",
+            "content": "学生理事会会员"
+        },
+        {
+            "id": "experience-student-councillor-description",
+            "content": "作为组织秘书，通过策划国庆庆祝活动、年终庆典等重要全校活动来服务学生需求。同时，在2022年和2023年中学一年级迎新活动中担任新生伙伴，并在校园开放日担任引导员。"
+        },
+        {
+            "id": "experience-ong-teng-cheong",
+            "content": "王鼎昌领导力认证课程"
+        },
+        {
+            "id": "experience-ong-teng-cheong-description",
+            "content": "为期一周的领导力培训营，包括通过参观 A*STAR 实验室和物流公司，学习领导经验。"
+        },
+        {
+            "id": "experience-animatronics",
+            "content": "人工智能驱动的电子动画与复古游戏编程"
+        },
+        {
+            "id": "experience-animatronics-description",
+            "content": "为期一周的课程，在 Arduino Pico 上开发复古游戏，并介绍机器人技术和人工智能。"
         }
     ],
     "classes": [
@@ -385,6 +513,50 @@
         {
             "class": "project-cateogry-computer-vision",
             "content": "计算机视觉"
-        }           
+        },
+        {
+            "class": "achievement-sentinel-challenge-description",
+            "content": "由新加坡国防部组织的网络安全 CTF 竞赛。"
+        },
+        {
+            "class": "project-cateogry-computer-vision",
+            "content": "计算机视觉"
+        },
+        {
+            "class": "project-category-mobile-development",
+            "content": "应用程序开发"
+        },
+        {
+            "class": "achievement-sssc-colours",
+            "content": "SSSC 优秀运动员奖"
+        },
+        {
+            "class": "achievement-sssc-colours-description",
+            "content": "因体育成就和良好的体育精神而获奖。"
+        },
+        {
+            "class": "achievement-singapore-math-olympiad-hm",
+            "content": "新加坡数学奥林匹克 - 荣誉奖"
+        },
+        {
+            "class": "achievement-singapore-math-olympiad-hm-description",
+            "content": "SMO 高级组。"
+        },
+        {
+            "class": "national-school-games",
+            "content": "全国校际运动会"
+        },
+        {
+            "class": "national-school-games-c-div-boys",
+            "content": "2022 全国校际运动会田径锦标赛 'C' 组男子"
+        },
+        {
+            "class": "hwa-chong-projects-day-high-d",
+            "content": "华中专题作业竞赛 - 特优奖"
+        },
+        {
+            "class": "better-ui",
+            "content": "BetterUI: 将重要的学校服务整合到一款多合一应用程序中"
+        }
     ]
 }

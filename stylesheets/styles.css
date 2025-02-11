@@ -605,9 +605,13 @@ body {
 .achievement .header-row h2, 
 .experience .header-row h2 {
     margin-right: 2rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.experience .header-row h2 {
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .achievement p, .experience p, .coding-project p {
@@ -788,8 +792,14 @@ body {
 .proficiency-bar-fill {
     background-color: #4D6BFE;
     height: 100%;
-    width: var(--fill-level, 0);
+    /* width: var(--fill-level, 0); */
     border-radius: var(--proficiency-bar-radius);
+    animation: proficiency-bar-animation 0.6s forwards;
+}
+
+@keyframes proficiency-bar-animation {
+    0% { width: 0; }
+    100% { width: var(--fill-level, 0);}
 }
 
 /* About */
