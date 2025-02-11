@@ -387,7 +387,23 @@
         {
             "id": "experience-animatronics-description",
             "content": "Einwöchiges Sabbatikum zur Entwicklung von Retro-Spielen auf einem Arduino Pico sowie eine Einführung in Robotik und künstliche Intelligenz."
-        }                                                     
+        },
+        {
+            "id": "experience-excel-vba",
+            "content": "Excel-Meisterschaft mit VBA"
+        },
+        {
+            "id": "experience-excel-vba-description",
+            "content": "Einwöchiges Sabbatikum über die Grundlagen von Excel VBA sowie Power BI."
+        },
+        {
+            "id": "experience-track-and-field",
+            "content": "Hwa Chong Leichtathletik"
+        },
+        {
+            "id": "experience-track-and-field-description",
+            "content": "Als Sprinter und Hürdenläufer dem Hwa Chong Leichtathletik-Team beigetreten. Mitglied von 2021 bis 2024 mit einigen Erfolgen auf dem Weg."
+        }                                                  
     ],
     "classes": [
         {

@@ -379,6 +379,22 @@
         {
             "id": "experience-animatronics-description",
             "content": "Week-long sabbatical developing retro games on an Arduino Pico as well as introduction to robotics and artificial intelligence."
+        },
+        {
+            "id": "experience-excel-vba",
+            "content": "Excel Yourself with VBA"
+        },
+        {
+            "id": "experience-excel-vba-description",
+            "content": "Week-long sabbatical on the basics of excel VBA as well as Power BI."
+        },
+        {
+            "id": "experience-track-and-field",
+            "content": "Hwa Chong Track and Field"
+        },
+        {
+            "id": "experience-track-and-field-description",
+            "content": "Joined Hwa Chong Track and Field as a sprinter and hurdler. Member from 2021-2024 with a few achievements along the way."
         }
     ],
     "classes": [

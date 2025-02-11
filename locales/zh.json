@@ -362,7 +362,7 @@
         },
         {
             "id": "experience-student-councillor-description",
-            "content": "作为组织秘书，通过策划国庆庆祝活动、年终庆典等重要全校活动来服务学生需求。同时，在2022年和2023年中学一年级迎新活动中担任新生伙伴，并在校园开放日担任引导员。"
+            "content": "作为组织秘书，通过策划国庆典礼、年终庆典等重要全校活动来服务学生需求。同时，在2022年和2023年中学一年级迎新活动中担任新生伙伴，并在校园开放日担任引导员。"
         },
         {
             "id": "experience-ong-teng-cheong",
@@ -379,7 +379,23 @@
         {
             "id": "experience-animatronics-description",
             "content": "为期一周的课程，在 Arduino Pico 上开发复古游戏，并介绍机器人技术和人工智能。"
-        }
+        },
+        {
+            "id": "experience-excel-vba",
+            "content": "用 VBA 掌控 Excel"
+        },
+        {
+            "id": "experience-excel-vba-description",
+            "content": "为期一周的课程，涵盖 Excel VBA 的基础知识以及 Power BI。"
+        },
+        {
+            "id": "experience-track-and-field",
+            "content": "华中田径队"
+        },
+        {
+            "id": "experience-track-and-field-description",
+            "content": "作为短跑运动员和跨栏选手加入华中田径队。2021 至 2024 年期间为队员，并取得了一些成绩。"
+        }                
     ],
     "classes": [
         {

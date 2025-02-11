@@ -290,7 +290,7 @@ setLanguage(localStorage.getItem("language") || "en").then(() => {
     updateAgeText()
     updateCurrentYearText()
     updateCurrentYearIndicator()
-    // filterListByCategory([...document.getElementsByClassName("checkbox-highlight")].find(el => el.offsetParent !== null))
+    filterListByCategory([...document.getElementsByClassName("checkbox-highlight")].find(el => el.offsetParent !== null))
 
     setInterval(changeHobbyText, 3000) // every 3 seconds
     window.addEventListener('scroll', updateCurrentYearIndicator); // Listen for scroll events
