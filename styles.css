@@ -125,19 +125,21 @@ section {
         background-color var(--toggle-mode-duration) ease;
 }
 
-.mac-dock-item svg:hover {
-    transform: scale(1.2) translateY(-20%);
-    cursor: pointer;
-}
+@media (pointer: fine) {
+    .mac-dock-item svg:hover {
+        transform: scale(1.2) translateY(-20%);
+        cursor: pointer;
+    }
 
-.mac-dock-item a:hover~span,
-.mac-dock-item svg:hover~span {
-    opacity: 1;
-    visibility: visible;
-}
+    .mac-dock-item a:hover~span,
+    .mac-dock-item svg:hover~span {
+        opacity: 1;
+        visibility: visible;
+    }
 
-.mac-dock-item svg.hover-neighbor {
-    transform: scale(1.1);
+    .mac-dock-item svg.hover-neighbor {
+        transform: scale(1.1);
+    }
 }
 
 .mac-dock-item span {
@@ -337,7 +339,8 @@ section {
     height: 1.2rem;
     padding: 3px;
     border-radius: 5px;
-    background: var(--dock-background-color);
+    background-color: var(--dock-background-color);
+    transition: background-color var(--toggle-mode-duration) ease;
 }
 
 .display-card-hyperlink svg {
@@ -437,12 +440,14 @@ section {
     transition: transform 0.2s ease;
 }
 
-.dropdown-header:hover {
-    transform: scale(1.02);
-}
+@media (pointer: fine) {
+    .dropdown-header:hover {
+        transform: scale(1.02);
+    }
 
-.dropdown-header:hover .dropdown-header-text h3 {
-    color: var(--primary-color);
+    .dropdown-header:hover .dropdown-header-text h3 {
+        color: var(--primary-color);
+    }
 }
 
 .dropdown-icon {
@@ -513,8 +518,18 @@ section {
     transition: transform 0.4s ease;
 }
 
-.display-line button:hover {
-    transform: scale(1.05);
+@media (max-width: 768px) {
+    .display-line {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+@media (pointer: fine) {
+    .display-line button:hover {
+        transform: scale(1.05);
+    }
 }
 
 .display-line button svg {
