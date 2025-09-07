@@ -24,6 +24,7 @@ body.dark {
     --dock-background-color: rgb(1, 2, 3);
     --dock-icon-color: rgb(13, 146, 247);
     --dock-icon-background: rgb(6, 15, 28);
+    --card-description-text-color: rgb(129, 155, 183);
     --tag-fill: rgb(13, 18, 24, 255);
     --primary-text-color: white;
 }
