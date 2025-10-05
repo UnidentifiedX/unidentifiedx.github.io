@@ -572,6 +572,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: end;
+    text-align: center;
 }
 
 .footer span {
