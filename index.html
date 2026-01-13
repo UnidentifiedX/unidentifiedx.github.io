@@ -85,13 +85,13 @@
     <section id="hero">
         <h2>Hello, I'm</h2>
         <h1>Sun Zizhuo</h1>
-        <p>Student • 17 • Singapore • Hwa Chong Institution</p>
+        <p>Student • <script>document.write(new Date().getFullYear() - 2008);</script> • Singapore • Hwa Chong Institution</p>
     </section>
     <section id="about">
         <div class="about-content">
             <h1>About Me</h1>
             <div class="about-description">
-                <p>Hey there! I'm Sun Zizhuo, a 17-year-old JC1 student at Hwa Chong Institution. I started programming
+                <p>Hey there! I'm Sun Zizhuo, a <script>document.write(new Date().getFullYear() - 2008);</script>-year-old JC2 student at Hwa Chong Institution. I started programming
                     at 7 or 8 with Scratch, and at 12 started my Node.js journey with Discord bots. Fast forward to
                     today, I code for fun and for research, both of which bring me
                     tremendous joy.
@@ -279,6 +279,7 @@
                     <h4>2025</h4>
                     <ul>
                         <li>DSTA Junior College Scholarship</li>
+                        <li>Hwa Chong Science Math Talent Programme (SMTP)</li>
                         <li>DSTA Brainhack 2025: Spacecube Participant</li>
                         <li>Singapore Science and Engineering Fair - Participation</li>
                     </ul>
@@ -289,6 +290,7 @@
                         <li>Singapore Science and Engineering Fair - Gold</li>
                         <li>Singapore Science and Engineering Fair - SAAS Special Award</li>
                         <li>Sentinel Challenge - 1st Invitational</li>
+                        <li>Hwa Chong Outstanding Student Award</li>
                         <li>International Chemistry Quiz - High Distinction</li>
                         <li>Sieberrsec CTF 5.0 - 4th Placing</li>
                         <li>SSSC Colours Award</li>
@@ -429,7 +431,7 @@
                         <path
                             d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Zm280 240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z" />
                     </svg>
-                    <span>2024</span>
+                    <span>2021-2023</span>
                 </div>
             </div>
             <div class="display-card">
@@ -459,6 +461,40 @@
             <p>Always tinkering.</p>
         </div>
         <div class="display-cards">
+            <div class="display-card">
+                <div class="display-card-hyperlink">
+                    <a href="/pdfs/PH022_Report_Final.pdf"
+                        target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+                            <path
+                                d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="display-card-image">
+                    <img src="images/neuron geometry.png" alt="">
+                </div>
+                <div class="display-card-text">
+                    <h3>Inverse Design and Optimization towards a Leaky Integrate-and-Fire Magnonic Neuron</h3>
+                    <p>Traditional von Neumann architectures powering today's AI systems face computing bottlenecks. Neuromorphic computing systems however can
+                        sidestep these issues by co-locating processing and memory. This project designs and optimises an energy-efficient magnonic neuron based on the leaky integrate-and-fire model 
+                        using micromagnetic simulations. While fundemental neuron functionalities were demonstrated, further work is required to achieve self-contained firing. 
+                    </p>
+                </div>
+                <div class="display-card-tags">
+                    <span>Magnonics</span>
+                    <span>Solid-State Physics</span>
+                    <span>Inverse-Design Algorithms</span>
+                    <span>Mumax3</span>
+                </div>
+                <div class="display-card-date">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+                        <path
+                            d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Zm280 240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z" />
+                    </svg>
+                    <span>2025</span>
+                </div>
+            </div>
             <div class="display-card">
                 <div class="display-card-hyperlink">
                     <a href="https://www.dsta.gov.sg/staticfile/ydsp/projects/files/reports/YDSP%20Report%20-%20Reinforcement%20Learning%20for%20the%20Tracking%20of%20Unmanned%20Aerial%20Vehicles%20.pdf"
@@ -787,7 +823,7 @@
         </div>
     </section>
     <div class="footer">
-        <span>Made with HTML and CSS • Last updated 6th October 2025 • &copy; Sun Zizhuo</span>
+        <span>Made with HTML and CSS • Last updated 14th January 2026 • &copy; Sun Zizhuo</span>
     </div>
 </body>
 
